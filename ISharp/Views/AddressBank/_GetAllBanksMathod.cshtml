@@ -1,0 +1,62 @@
+﻿@model IEnumerable<ISharpConvertor.UIModels.AddressModelForBanks>
+<div class="res">
+
+    <script type="text/javascript">
+    ymaps.ready(init);
+
+    function init() {
+        myMap = new ymaps.Map("map", {
+            center: [@Model.First().Longitude,@Model.First().Latitude],
+            zoom: 10
+        }, {
+            searchControlProvider: 'yandex#search'
+        }),
+        objectManager = new ymaps.ObjectManager({
+            // Чтобы метки начали кластеризоваться, выставляем опцию.
+            clusterize: true,
+            // ObjectManager принимает те же опции, что и кластеризатор.
+            gridSize: 100
+        });
+        objectManager.objects.options.set('preset', 'islands#blueDotIcon');
+        objectManager.clusters.options.set('preset', 'islands#blueClusterIcons');
+        myMap.geoObjects.add(objectManager);
+        objectManager.add({
+            "type": "FeatureCollection",
+            "features": [
+
+       
+                           
+                
+                
+                
+                
+                @foreach (var item in Model) {
+        <text>
+                {
+                    "type": "Feature",
+                    "id": "0",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [@Html.DisplayFor(modelItem => item.Longitude), @Html.DisplayFor(modelItem => item.Latitude)]},
+                    "properties": {
+                         "hintContent": "@Html.DisplayFor(modelItem=>item.Name)"
+                    }
+             
+                },
+                </text>
+                    }
+            ]
+        });
+
+
+       
+        /*   });
+       }
+        });
+    */
+
+    }
+    </script>
+    <div id="map" style="width: 800px; height: 400px"></div>
+
+</div>

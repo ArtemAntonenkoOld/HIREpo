@@ -1,0 +1,77 @@
+﻿@using ISharpConvertor.Entity;
+@using ISharpConvertor.UIModels;
+
+@model IEnumerable<BankModel>
+@{
+    ViewBag.Title = "View";
+}
+
+@foreach (BankModel bank in Model)
+{
+<section id="wrapper">
+    <div class="container">
+        <div class="rectangle">
+            
+                <h2>@bank.cName</h2>
+                     
+            </div>
+        <div class="left_tri"></div>
+        <div class="right_tri"></div>
+
+        
+        <div id="content">
+            <div class="main_info">
+
+                
+                <div id="results" style="width:510px; height:400px; float:left;">
+                    @using (Ajax.BeginForm("_MapById", new AjaxOptions { UpdateTargetId = "results" }))
+                    {
+                        <input type="hidden" name="id" value="@bank.cId" />
+                        <input type="submit" class="hidden_map" value="Показати карту" />
+                    }
+
+                    
+
+                </div>
+            <div class="info_block">
+                <div class="ribbon_currency"><h2>USD</h2></div>
+                <div class="bu">Покупка: </div>
+                <div class="sold">Продаж: </div>
+                <div class="ribbon_currency"><h2>EUR</h2></div>
+                <div class="bu">Покупка: </div>
+                <div class="sold">Продаж: </div>
+                <div class="ribbon_currency"><h2>RUB</h2></div>
+                <div class="bu">Покупка: </div>
+                <div class="sold">Продаж: </div>
+
+            </div>
+        </div>
+        <div class="convertor_near">
+            <div class="convertor">
+                <select><option>123</option></select> <select><option>123</option></select><button></button>
+                <input type="text" />
+            </div>
+            <div class="good_bank">
+                <input type="text" placeholder="Введіть своє місцезнаходження"/>
+                <div class="out_bank"></div>
+            </div>
+        </div>
+            
+                <table class="simple-little-table" cellspacing='0'>
+                  
+
+                   @foreach (AdressModel intem in bank.AdressModel)
+                   {
+                    <tr>
+                        <td>@intem.cAdressVal</td>
+                        <td style="display:none">@intem.cLatitude</td>
+                        <td style="display:none">@intem.cLongitude</td>
+                    </tr>
+                   }
+                </table>
+            </div>
+       
+</div>
+     
+</section>
+}

@@ -1,0 +1,368 @@
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.WebUI.dll.config
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.WebUI.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.WebUI.pdb
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\EntityFramework.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Owin.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Net.Http.Formatting.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Helpers.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.Owin.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.WebHost.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Mvc.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Optimization.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Razor.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\WebGrease.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Net.Http.Formatting.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Helpers.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.WebHost.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Mvc.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Optimization.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Razor.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\EntityFramework.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.Owin.xml
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Http.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Razor.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\EntityFramework.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Http.Owin.resources.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\obj\Debug\ISharpConvertor.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\obj\Debug\ISharpConvertor.WebUI.dll
+C:\Users\PROGER\documents\visual studio 2013\Projects\ISharpConvertor\ISharpConvertor.WebUI\obj\Debug\ISharpConvertor.WebUI.pdb
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\obj\Debug\ISharpConvertor.WebUI.csprojResolveAssemblyReference.cache
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.WebUI.dll.config
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.WebUI.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.WebUI.pdb
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Antlr3.Runtime.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\EntityFramework.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\EntityFramework.SqlServer.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.BL.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.Entity.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.UIModels.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Google.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Web.Infrastructure.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Newtonsoft.Json.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Owin.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\RestSharp.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Net.Http.Formatting.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Helpers.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.Owin.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.WebHost.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Mvc.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Optimization.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Razor.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.Deployment.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.Razor.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\WebGrease.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.BL.pdb
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.Entity.pdb
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.UIModels.pdb
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.pdb
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\RestSharp.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Newtonsoft.Json.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Net.Http.Formatting.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Helpers.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.WebHost.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Mvc.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Optimization.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Razor.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.Deployment.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.Razor.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Antlr3.Runtime.pdb
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\EntityFramework.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\EntityFramework.SqlServer.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Google.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.Owin.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Net.Http.Formatting.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Helpers.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Http.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Http.WebHost.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Mvc.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Optimization.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Razor.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.WebPages.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.WebPages.Deployment.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.WebPages.Razor.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\EntityFramework.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Http.Owin.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\obj\Debug\ISharpConvertor.WebUI.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.WebUI\obj\Debug\ISharpConvertor.WebUI.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.WebUI.dll.config
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.WebUI.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.WebUI.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\EntityFramework.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.BL.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.Entity.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.UIModels.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Owin.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\RestSharp.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Net.Http.Formatting.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Helpers.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.Owin.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.WebHost.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Mvc.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Optimization.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Razor.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\WebGrease.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.BL.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.Entity.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.UIModels.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\EntityFramework.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\RestSharp.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Net.Http.Formatting.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Helpers.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.WebHost.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Mvc.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Optimization.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Razor.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Antlr3.Runtime.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.Owin.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Http.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Razor.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Http.Owin.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\obj\Debug\ISharpConvertor.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\obj\Debug\ISharpConvertor.WebUI.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.WebUI\obj\Debug\ISharpConvertor.WebUI.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.WebUI.dll.config
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.WebUI.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.WebUI.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Antlr3.Runtime.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\EntityFramework.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\EntityFramework.SqlServer.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.BL.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.Entity.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.UIModels.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Google.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Web.Infrastructure.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Newtonsoft.Json.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Owin.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\RestSharp.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Net.Http.Formatting.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Helpers.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.Owin.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.WebHost.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Mvc.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Optimization.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Razor.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.Deployment.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.Razor.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\WebGrease.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.BL.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.Entity.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.UIModels.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ISharpConvertor.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\EntityFramework.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\EntityFramework.SqlServer.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\RestSharp.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Newtonsoft.Json.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Net.Http.Formatting.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Helpers.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.WebHost.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Mvc.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Optimization.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Razor.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.Deployment.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.WebPages.Razor.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Antlr3.Runtime.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Google.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\System.Web.Http.Owin.xml
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Net.Http.Formatting.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Helpers.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Http.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Http.WebHost.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Mvc.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Optimization.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Razor.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.WebPages.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.WebPages.Deployment.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.WebPages.Razor.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\bin\ru\System.Web.Http.Owin.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\obj\Debug\ISharpConvertor.WebUI.csprojResolveAssemblyReference.cache
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\obj\Debug\ISharpConvertor.WebUI.dll
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI\obj\Debug\ISharpConvertor.WebUI.pdb

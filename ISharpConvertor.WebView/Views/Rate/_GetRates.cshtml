@@ -1,0 +1,34 @@
+﻿@model IEnumerable<ISharpConvertor.UIModels.RateByValidModel>
+
+@{
+    ViewBag.Title = "GetRates";
+}
+
+
+
+
+<table class="simple-little-table" cellspacing='0'>
+   
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td><a href="~/Views/Bank/@item.IdBank">
+    @item.Name
+        </a>
+    </td>
+   
+
+            <td><a href="~/Views/Bank/@item.IdBank">
+    @item.Rate
+</a>
+
+</td>
+            <td style="display:none">
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+
+
+        </tr>
+    }
+</table>

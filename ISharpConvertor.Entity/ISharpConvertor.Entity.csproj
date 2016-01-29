@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27E8B598-17BF-483C-9705-F6DBC33FA95F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ISharpConvertor.Entity</RootNamespace>
+    <AssemblyName>ISharpConvertor.Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="ISharpConvertor.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ISharpConvertor.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ISharpConvertor.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ISharpConvertor.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ISharpConvertor.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbAdress.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbBank.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbComins.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbCurrency.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbCurrencyRate.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbExpodenture.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbFromWho.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbIncome.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbNews.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbOperation.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbOperationComins.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbOperationDetails.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbRate.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbRssUser.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbRssUserNews.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbSystemComin.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbUser.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbUserComin.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tbVideos.cs">
+      <DependentUpon>ISharpConvertor.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <EntityDeploy Include="ISharpConvertor.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ISharpConvertor.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ISharpConvertor.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ISharpConvertor.edmx</DependentUpon>
+      <LastGenOutput>ISharpConvertor.Context.cs</LastGenOutput>
+    </None>
+    <None Include="ISharpConvertor.edmx.diagram">
+      <DependentUpon>ISharpConvertor.edmx</DependentUpon>
+    </None>
+    <None Include="ISharpConvertor.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ISharpConvertor.edmx</DependentUpon>
+      <LastGenOutput>ISharpConvertor.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

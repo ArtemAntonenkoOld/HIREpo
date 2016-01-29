@@ -1,0 +1,7 @@
+﻿@model IEnumerable<ISharpConvertor.UIModels.OnlyBankModel>
+<select id="list" name="bank" class="enjoy-css_input">
+    @foreach (var item in Model)
+    {
+        <option>@item.Name</option>
+    }
+</select>

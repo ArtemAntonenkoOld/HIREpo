@@ -1,0 +1,40 @@
+﻿@model IEnumerable<ISharpConvertor.UIModels.AddressModelForBanks>
+
+<script type="text/javascript">
+        ymaps.ready(init);
+        var myMap,
+            myPlacemark;
+
+        function init() {
+            myMap = new ymaps.Map("map", {
+                center: [@Model.First().Longitude,@Model.First().Latitude],
+                zoom: 10
+            });/*
+        $.ajax({
+            url: '//api/',                      // указываем URL и
+            dataType: "json",                     // тип загружаемых данных
+            success: function (data, textStatus) { // вешаем свой обработчик на функцию success
+                $.each(data, function (i, val) {    // обрабатываем полученные данные
+                    */
+            @foreach (var item in Model) {
+        <text>
+            myPlacemark = new ymaps.Placemark([@Html.DisplayFor(modelItem => item.Longitude),@Html.DisplayFor(modelItem => item.Latitude)/*val.Latitude, val.Longitude*/], {
+                hintContent: ' @Html.DisplayFor(modelItem => item.Name)',
+
+                balloonContentHeader: '<strong> @Html.DisplayFor(modelItem => item.Name)</strong>',
+
+                balloonContentBody: '@Html.DisplayFor(modelItem => item.Address)'
+            });
+            myMap.geoObjects.add(myPlacemark);
+            </text>
+    }
+            /*   });
+           }
+            });
+        */
+
+        }
+</script>
+
+
+<div id="map" style="width: 800px; height: 400px"></div>

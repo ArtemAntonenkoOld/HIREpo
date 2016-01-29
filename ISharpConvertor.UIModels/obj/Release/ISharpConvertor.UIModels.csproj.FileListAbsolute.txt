@@ -1,0 +1,11 @@
+E:\Сдача\ISharpConvertor\ISharpConvertor.UIModels\bin\Release\ISharpConvertor.UIModels.dll.config
+E:\Сдача\ISharpConvertor\ISharpConvertor.UIModels\bin\Release\ISharpConvertor.UIModels.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.UIModels\bin\Release\ISharpConvertor.UIModels.pdb
+E:\Сдача\ISharpConvertor\ISharpConvertor.UIModels\bin\Release\EntityFramework.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.UIModels\bin\Release\EntityFramework.SqlServer.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.UIModels\bin\Release\EntityFramework.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.UIModels\bin\Release\EntityFramework.SqlServer.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.UIModels\bin\Release\ru\EntityFramework.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.UIModels\obj\Release\ISharpConvertor.UIModels.csprojResolveAssemblyReference.cache
+E:\Сдача\ISharpConvertor\ISharpConvertor.UIModels\obj\Release\ISharpConvertor.UIModels.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.UIModels\obj\Release\ISharpConvertor.UIModels.pdb

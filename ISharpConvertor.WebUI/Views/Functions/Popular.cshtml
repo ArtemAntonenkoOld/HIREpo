@@ -1,0 +1,137 @@
+﻿@using ISharpConvertor.Entity;
+@using ISharpConvertor.UIModels;
+@model IEnumerable<BankModel>
+@{
+    ViewBag.Title = "Popular";
+}
+
+<section id="wrapper">
+    <div class="container">
+        <div class="rectangle">
+            <h2>Курс Валют</h2>
+
+        </div>
+
+        <div class="left_tri"></div>
+        <div class="right_tri"></div>
+
+        <div id="content">
+            <a href="#" id="trigger-link">Сортувати за рейтингом</a><br><br>
+            <table id="myDummyTable" class="tablesorter tablesorter-default" border="0" cellpadding="0" cellspacing="1">
+                <thead>
+                    <tr class="tablesorter-headerRow">
+                        <th rowspan="2">Банк</th>
+                        <th colspan="2">USD</th>
+                        <th colspan="2">EUR</th>
+                        <th colspan="2">RUB</th>
+
+                    </tr>
+                    <tr>
+                        <th data-column="1"><div>Купівля</div></th>
+                        <th data-column="2"><div>Продаж</div></th>
+                        <th data-column="3"><div>Купівля</div></th>
+                        <th data-column="4"><div>Продаж</div></th>
+
+                        <th data-column="5"><div>Купівля</div></th>
+                        <th data-column="6"><div>Продаж</div></th>
+
+                    </tr>
+
+                </thead>
+                <tbody>
+                    @foreach (BankModel bank in Model)
+                    {
+                        <tr>
+                            <td>@Html.ActionLink(@bank.cName, "Bank", "Home", new { id = @bank.cId }, null)</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td style="display:none;">@bank.cRating</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+
+
+    <a href="#" id="trigger-link">Сортувати за рейтингом</a><br><br>
+    <table id="myDummyTable" class="tablesorter tablesorter-default" border="0" cellpadding="0" cellspacing="1">
+        <thead>
+            <tr class="tablesorter-headerRow">
+                <th rowspan="2">Банк</th>
+                <th colspan="2">USD</th>
+                <th colspan="2">EUR</th>
+                <th colspan="2">RUB</th>
+
+            </tr>
+            <tr>
+                <th data-column="1"><div>Купівля</div></th>
+                <th data-column="2"><div>Продаж</div></th>
+                <th data-column="3"><div>Купівля</div></th>
+                <th data-column="4"><div>Продаж</div></th>
+
+                <th data-column="5"><div>Купівля</div></th>
+                <th data-column="6"><div>Продаж</div></th>
+
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rahim</td>
+                <td>432</td>
+                <td>M</td>
+                <td>Noida</td>
+                <td>Dec 29, 2009</td>
+                <td>43</td>
+                <td>M</td>
+                <td style="display: none">5</td>
+            </tr>
+            <tr>
+                <td>Rahiyufm</td>
+                <td>43</td>
+                <td>M</td>
+                <td>Noida</td>
+                <td>Dec 29, 2009</td>
+                <td>43</td>
+                <td>M</td>
+                <td style="display: none">322</td>
+            </tr>
+            <tr>
+                <td>Rahim</td>
+                <td>43</td>
+                <td>M</td>
+                <td>Noida</td>
+                <td>Dec 29, 2009</td>
+                <td>43</td>
+                <td>M</td>
+                <td style="display: none">5</td>
+            </tr>
+            <tr>
+                <td>Rahim</td>
+                <td>43</td>
+                <td>M</td>
+                <td>Noida</td>
+                <td>Dec 29, 2009</td>
+                <td>43</td>
+                <td>M</td>
+                <td style="display: none">5</td>
+            </tr>
+            <tr>
+                <td>Rahim</td>
+                <td>43</td>
+                <td>M</td>
+                <td>Noida</td>
+                <td>Dec 29, 2009</td>
+                <td>43</td>
+                <td>M</td>
+                <td style="display: none">5</td>
+            </tr>
+        </tbody>
+    </table>

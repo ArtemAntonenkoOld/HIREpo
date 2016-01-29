@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html ng-app>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body ng-app="MyApp">
+    <ul id="menu">
+        <li>@Html.ActionLink("Головна", "Index", "Home", new { area = "" }, new { @class = "" })</li>
+        <li>
+            @Html.ActionLink("Функції", "Functions", "Functions", new { area = "" }, new { @class = "" })
+
+
+            <ul>
+                <li>@Html.ActionLink("Розташування банків/банкоматів", "", "AddressBank", new { area = "" }, new { @class = "" })
+                <li>
+                <li>@Html.ActionLink("Списки валют", "Rates", "Rate", new { area = "" }, new { @class = "" })</li>
+                <li>@Html.ActionLink("Графіки ", "Graph", "Graph", new { area = "" }, new { @class = "" })</li>
+                <li>@Html.ActionLink("Калькулятор валют", "Calculate", "Calculator", new { area = "" }, new { @class = "" })</li>
+                </ul>
+        </li>
+        <li>@Html.ActionLink("Відгуки", "Reviews", "Reviews", new { area = "" }, new { @class = "" })
+        <li>
+            @Html.ActionLink("Як це працює?", "Work", "Work", new { area = "" }, new { @class = "" })
+
+            <ul>
+                <li>@Html.ActionLink("Расположение ближайших банков/банкоматов", "Bank", "Work", new { area = "" }, new { @class = "" })
+                <li>
+                <li>@Html.ActionLink("Списки валют", "Currency", "Work", new { area = "" }, new { @class = "" })</li>
+                <li>@Html.ActionLink("*Найти оптимальный банк по растоянию", "Optimal", "Work", new { area = "" }, new { @class = "" })</li>
+                <li>@Html.ActionLink("Мониторинг прихода расхода cредств", "Monitoring", "Work", new { area = "" }, new { @class = "" })</li>
+                <li>@Html.ActionLink("График курса банков", "Graph", "Work", new { area = "" }, new { @class = "" })</li>
+                <li>@Html.ActionLink("Поиск популярных банков", "Popular", "Work", new { area = "" }, new { @class = "" })</li>
+                <li>@Html.ActionLink("Отзывы о банках, клиентах, сервисе", "Story", "Work", new { area = "" }, new { @class = "" })</li>
+                <li>@Html.ActionLink("Обмен валютами с клиентами", "Trasfare", "Work", new { area = "" }, new { @class = "" })</li>
+            </ul>
+        </li>
+        <li>
+            @Html.ActionLink("Мобільний додаток", "Mobile", "Mobile", new { area = "" }, new { @class = "" })
+            <ul>
+                <li>@Html.ActionLink("Android", "Android", "Mobile", new { area = "" }, new { @class = "" })</li>
+                <li>@Html.ActionLink("Ios", "Ios", "Mobile", new { area = "" }, new { @class = "" })</li>
+                <li>@Html.ActionLink("Windows Phone", "Windows", "Mobile", new { area = "" }, new { @class = "" })</li>
+            </ul>
+        </li>
+
+      
+    </ul>
+    <!-- <div id="wrapper_r" style="display:none">
+         <div class="user-icon"></div>
+         <div class="pass-icon"></div>
+
+         <form name="login-form" class="login-form" action="" method="post">
+
+             <div class="header_r">
+                 <h1>Авторизація</h1>
+                 <span>Введіть ваші реєстраційні дані для входу до вашого приватного кабінету </span>
+             </div>
+
+             <div class="content_r">
+                 <input name="username" type="text" class="input username" value="Логін" onfocus="this.value=''" />
+                 <input name="password" type="password" class="input password" value="Пароль" onfocus="this.value=''" />
+             </div>
+
+             <div class="footer_r">
+                 <input type="submit" name="submit" value="Увійти" class="button" />
+                 <input type="submit" name="submit" value="Реєстрація" class="register" />
+             </div>
+
+         </form>
+     </div>
+     <div id="wrapper_r2" style="display:none">
+         <div class="user-icon"></div>
+         <div class="pass-icon"></div>
+
+         <form name="login-form2" class="login-form2" action="" method="post">
+
+             <div class="header_r">
+                 <h1>Реєстрація</h1>
+                 <span>Заповніть реєстраційні поля</span>
+             </div>
+
+             <div class="content_r">
+                 <input name="username" type="text" class="input username" value="Логін" onfocus="this.value=''" />
+                 <input type="email" name="eamil" class="input_email" value="Email" onfocus="this.value=''" />
+                 <input name="password" type="password" class="input password" value="Пароль" onfocus="this.value=''" />
+             </div>
+
+             <div class="footer_r">
+                 <input type="submit" name="submit" value="Увійти" class="button" />
+                 <input type="submit" name="submit" value="Реєстрація" class="register" />
+             </div>
+
+         </form>
+     </div>-->
+    <div class=" body-content">
+        @RenderBody()
+
+
+        <!--<hr />
+        <footer>
+            <div>&copy; @DateTime.Now.Year ISharpConvertor Company</div>
+            <div>подписатся на обновления</div>
+            <div>Мы в соц.сетях</div>
+        </footer>-->
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+

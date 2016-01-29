@@ -1,0 +1,63 @@
+﻿@model ISharpConvertor.WebUI.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Реєстрація";
+}
+
+
+<section id="wrapper">
+    <div class="container">
+        <div class="rectangle">
+            <h2>@ViewBag.Title</h2>
+
+        </div>
+
+        <div class="left_tri"></div>
+        <div class="right_tri"></div>
+
+        <div id="content">
+            @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                
+                    <div id="secondary">
+                        <aside class="widget">
+                            <h1>Створіть власний обліковий запис на нашому сервісі та отримайте додаткові можливості</h1>
+                        </aside>
+                    </div>
+
+                    
+                        @Html.ValidationSummary("", new { @class = "text-danger alert-box" })
+
+                        <div class="center">
+                            <div class="form-group group_reg">
+                                @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label ribbon_label" })
+                                <div class="col-md-10">
+                                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control enjoy-css" })
+                                </div>
+                            </div>
+                            <div class="form-group group_reg">
+                                @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label ribbon_label" })
+                                <div class="col-md-10">
+                                    @Html.PasswordFor(m => m.Password, new { @class = "form-control enjoy-css" })
+                                </div>
+                            </div>
+                            <div class="form-group group_reg">
+                                @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 control-label ribbon_label" })
+                                <div class="col-md-10">
+                                    @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control enjoy-css" })
+                                </div>
+                            </div>
+                            <div class="form-group group_reg">
+                                <div class="col-md-offset-2 col-md-10">
+                                    <input type="submit" class="btn btn-default enjoy-css_button" value="Зареєструватися" />
+                                </div>
+                            </div>
+                        </div>
+                        }
+                    </div>
+        </div>
+    </section>
+
+            @section Scripts {
+                @Scripts.Render("~/bundles/jqueryval")
+            }

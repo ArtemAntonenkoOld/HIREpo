@@ -1,0 +1,1 @@
+E:\Final\ISharpConvertor\ISharpConvertor.WebUI.Tests\obj\Debug\ISharpConvertor.WebUI.Tests.csprojResolveAssemblyReference.cache

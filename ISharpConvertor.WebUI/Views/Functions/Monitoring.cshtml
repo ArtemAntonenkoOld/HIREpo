@@ -1,0 +1,29 @@
+﻿@using ISharpConvertor.Entity;
+@using ISharpConvertor.UIModels;
+@model IEnumerable<bankmodel>
+    @{
+        ViewBag.Title = "Currency";
+    }
+
+    <section id="wrapper">
+        <div class="container">
+            <div class="rectangle">
+                <h2>Курс Валют</h2>
+
+            </div>
+
+            <div class="left_tri"></div>
+            <div class="right_tri"></div>
+
+            <div id="content">
+
+                @using (Ajax.BeginForm("_Chart", new AjaxOptions { UpdateTargetId = "resultschart" }))
+                {
+                    <input type="text" name="name" placeholder="Введіть назву банку" />
+                    <input type="text" name="currency" placeholder="Введіть назву банку" />
+                    <input type="submit" value="Пошук" />
+                }
+                <div id="resultschart"></div>
+            </div>
+        </div>
+    </section>

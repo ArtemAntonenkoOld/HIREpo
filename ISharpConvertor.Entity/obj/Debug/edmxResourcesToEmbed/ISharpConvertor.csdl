@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ISharpConvertorModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tbAdress">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cAdressVal" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="cIdBank" Type="Int32" Nullable="false" />
+    <Property Name="cStreet" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="cCity" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="cCountry" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="cLongitude" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <Property Name="cLatitude" Type="String" MaxLength="70" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tbBank" Relationship="Self.FK__tbAdress__cIdBan__398D8EEE" FromRole="tbAdress" ToRole="tbBank" />
+    <NavigationProperty Name="tbComins" Relationship="Self.FK__tbComins__cIdAdr__3E52440B" FromRole="tbAdress" ToRole="tbComins" />
+    <NavigationProperty Name="tbRssUser" Relationship="Self.FK__tbRssUser__cMail__46E78A0C" FromRole="tbAdress" ToRole="tbRssUser" />
+  </EntityType>
+  <EntityType Name="tbBank">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cName" Type="String" MaxLength="81" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="cRating" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbAdress" Relationship="Self.FK__tbAdress__cIdBan__398D8EEE" FromRole="tbBank" ToRole="tbAdress" />
+    <NavigationProperty Name="tbComins" Relationship="Self.FK__tbComins__cIdBan__3D5E1FD2" FromRole="tbBank" ToRole="tbComins" />
+    <NavigationProperty Name="tbCurrencyRate" Relationship="Self.FK_tbCurrencyRate_tbBank_cId" FromRole="tbBank" ToRole="tbCurrencyRate" />
+  </EntityType>
+  <EntityType Name="tbComins">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cTopic" Type="Int32" Nullable="false" />
+    <Property Name="cDecription" Type="String" MaxLength="400" FixedLength="false" Unicode="false" />
+    <Property Name="cIdUser" Type="Int32" Nullable="false" />
+    <Property Name="cIdBank" Type="Int32" Nullable="false" />
+    <Property Name="cIdAdress" Type="Int32" />
+    <NavigationProperty Name="tbAdress" Relationship="Self.FK__tbComins__cIdAdr__3E52440B" FromRole="tbComins" ToRole="tbAdress" />
+    <NavigationProperty Name="tbBank" Relationship="Self.FK__tbComins__cIdBan__3D5E1FD2" FromRole="tbComins" ToRole="tbBank" />
+    <NavigationProperty Name="tbUser" Relationship="Self.FK__tbComins__cIdUse__3C69FB99" FromRole="tbComins" ToRole="tbUser" />
+  </EntityType>
+  <EntityType Name="tbCurrency">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" />
+    <Property Name="cCurrencyLong" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="cCurrencyShort" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tbCurrencyRate" Relationship="Self.FK__tbCurrenc__cIdCu__33D4B598" FromRole="tbCurrency" ToRole="tbCurrencyRate" />
+  </EntityType>
+  <EntityType Name="tbCurrencyRate">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" />
+    <Property Name="cIdRate" Type="Int32" Nullable="false" />
+    <Property Name="cIdCurrency" Type="Int32" Nullable="false" />
+    <Property Name="cIdBank" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbBank" Relationship="Self.FK_tbCurrencyRate_tbBank_cId" FromRole="tbCurrencyRate" ToRole="tbBank" />
+    <NavigationProperty Name="tbCurrency" Relationship="Self.FK__tbCurrenc__cIdCu__33D4B598" FromRole="tbCurrencyRate" ToRole="tbCurrency" />
+    <NavigationProperty Name="tbRate" Relationship="Self.FK__tbCurrenc__cIdRa__32E0915F" FromRole="tbCurrencyRate" ToRole="tbRate" />
+  </EntityType>
+  <EntityType Name="tbExpodenture">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="cSume" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="cCurrency" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="cIdUser" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbUser" Relationship="Self.FK__tbExpoden__cIdUs__15502E78" FromRole="tbExpodenture" ToRole="tbUser" />
+  </EntityType>
+  <EntityType Name="tbFromWho">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cName" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="cUserId" Type="Int32" Nullable="false" />
+    <Property Name="cId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbUser" Relationship="Self.FK__tbFromWho__cUser__5FB337D6" FromRole="tbFromWho" ToRole="tbUser" />
+    <NavigationProperty Name="tbSystemComin" Relationship="Self.FK__tbSystemC__cFrom__71D1E811" FromRole="tbFromWho" ToRole="tbSystemComin" />
+    <NavigationProperty Name="tbUserComin" Relationship="Self.FK__tbUserCom__cFrom__6383C8BA" FromRole="tbFromWho" ToRole="tbUserComin" />
+  </EntityType>
+  <EntityType Name="tbIncome">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="cSume" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="cCurrency" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="cIdUser" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbUser" Relationship="Self.FK__tbIncome__cIdUse__1273C1CD" FromRole="tbIncome" ToRole="tbUser" />
+  </EntityType>
+  <EntityType Name="tbNews">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cTopic" Type="Int32" Nullable="false" />
+    <Property Name="cDescription" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tbRssUserNews" Relationship="Self.FK__tbRssUser__cIdNe__4AB81AF0" FromRole="tbNews" ToRole="tbRssUserNews" />
+    <NavigationProperty Name="tbVideos" Relationship="Self.FK__tbVideos__cIdNew__440B1D61" FromRole="tbNews" ToRole="tbVideos" />
+  </EntityType>
+  <EntityType Name="tbOperation">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cOperationType" Type="Int32" Nullable="false" />
+    <Property Name="cIsFinished" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbOperationDetails" Relationship="Self.FK__tbOperati__cIdOp__1A14E395" FromRole="tbOperation" ToRole="tbOperationDetails" />
+    <NavigationProperty Name="tbOperationComins" Relationship="Self.FK__tbOperati__cIdOp__6B24EA82" FromRole="tbOperation" ToRole="tbOperationComins" />
+  </EntityType>
+  <EntityType Name="tbOperationComins">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" />
+    <Property Name="cIdOperation" Type="Int32" Nullable="false" />
+    <Property Name="cDescription" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="cTopic" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbOperation" Relationship="Self.FK__tbOperati__cIdOp__6B24EA82" FromRole="tbOperationComins" ToRole="tbOperation" />
+  </EntityType>
+  <EntityType Name="tbOperationDetails">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cType" Type="Int32" Nullable="false" />
+    <Property Name="cParams" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="cIdOperation" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbOperation" Relationship="Self.FK__tbOperati__cIdOp__1A14E395" FromRole="tbOperationDetails" ToRole="tbOperation" />
+  </EntityType>
+  <EntityType Name="tbRate">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" />
+    <Property Name="cRate" Type="Double" Nullable="false" />
+    <Property Name="cDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="cIsValid" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbCurrencyRate" Relationship="Self.FK__tbCurrenc__cIdRa__32E0915F" FromRole="tbRate" ToRole="tbCurrencyRate" />
+    <Property Name="SellBuy" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbRssUser">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cMail" Type="Int32" />
+    <NavigationProperty Name="tbAdress" Relationship="Self.FK__tbRssUser__cMail__46E78A0C" FromRole="tbRssUser" ToRole="tbAdress" />
+    <NavigationProperty Name="tbRssUserNews" Relationship="Self.FK__tbRssUser__cIdUs__49C3F6B7" FromRole="tbRssUser" ToRole="tbRssUserNews" />
+  </EntityType>
+  <EntityType Name="tbRssUserNews">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cIdUser" Type="Int32" Nullable="false" />
+    <Property Name="cIdNews" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbNews" Relationship="Self.FK__tbRssUser__cIdNe__4AB81AF0" FromRole="tbRssUserNews" ToRole="tbNews" />
+    <NavigationProperty Name="tbRssUser" Relationship="Self.FK__tbRssUser__cIdUs__49C3F6B7" FromRole="tbRssUserNews" ToRole="tbRssUser" />
+  </EntityType>
+  <EntityType Name="tbSystemComin">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" />
+    <Property Name="cFromWho" Type="Int32" Nullable="false" />
+    <Property Name="cTopic" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbFromWho" Relationship="Self.FK__tbSystemC__cFrom__71D1E811" FromRole="tbSystemComin" ToRole="tbFromWho" />
+  </EntityType>
+  <EntityType Name="tbUser">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tbComins" Relationship="Self.FK__tbComins__cIdUse__3C69FB99" FromRole="tbUser" ToRole="tbComins" />
+    <NavigationProperty Name="tbExpodenture" Relationship="Self.FK__tbExpoden__cIdUs__15502E78" FromRole="tbUser" ToRole="tbExpodenture" />
+    <NavigationProperty Name="tbFromWho" Relationship="Self.FK__tbFromWho__cUser__5FB337D6" FromRole="tbUser" ToRole="tbFromWho" />
+    <NavigationProperty Name="tbIncome" Relationship="Self.FK__tbIncome__cIdUse__1273C1CD" FromRole="tbUser" ToRole="tbIncome" />
+    <NavigationProperty Name="tbUserComin" Relationship="Self.FK__tbUserCom__cIdUs__628FA481" FromRole="tbUser" ToRole="tbUserComin" />
+  </EntityType>
+  <EntityType Name="tbUserComin">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" />
+    <Property Name="cIdUser" Type="Int32" Nullable="false" />
+    <Property Name="cFromWho" Type="Int32" Nullable="false" />
+    <Property Name="cTopic" Type="Int32" Nullable="false" />
+    <Property Name="cDescription" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="tbFromWho" Relationship="Self.FK__tbUserCom__cFrom__6383C8BA" FromRole="tbUserComin" ToRole="tbFromWho" />
+    <NavigationProperty Name="tbUser" Relationship="Self.FK__tbUserCom__cIdUs__628FA481" FromRole="tbUserComin" ToRole="tbUser" />
+  </EntityType>
+  <EntityType Name="tbVideos">
+    <Key>
+      <PropertyRef Name="cId" />
+    </Key>
+    <Property Name="cId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cSource" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="cIdNews" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbNews" Relationship="Self.FK__tbVideos__cIdNew__440B1D61" FromRole="tbVideos" ToRole="tbNews" />
+  </EntityType>
+  <Association Name="FK__tbAdress__cIdBan__398D8EEE">
+    <End Role="tbBank" Type="Self.tbBank" Multiplicity="1" />
+    <End Role="tbAdress" Type="Self.tbAdress" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbBank">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbAdress">
+        <PropertyRef Name="cIdBank" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbComins__cIdAdr__3E52440B">
+    <End Role="tbAdress" Type="Self.tbAdress" Multiplicity="0..1" />
+    <End Role="tbComins" Type="Self.tbComins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbAdress">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbComins">
+        <PropertyRef Name="cIdAdress" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbRssUser__cMail__46E78A0C">
+    <End Role="tbAdress" Type="Self.tbAdress" Multiplicity="0..1" />
+    <End Role="tbRssUser" Type="Self.tbRssUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbAdress">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbRssUser">
+        <PropertyRef Name="cMail" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbComins__cIdBan__3D5E1FD2">
+    <End Role="tbBank" Type="Self.tbBank" Multiplicity="1" />
+    <End Role="tbComins" Type="Self.tbComins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbBank">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbComins">
+        <PropertyRef Name="cIdBank" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbCurrencyRate_tbBank_cId">
+    <End Role="tbBank" Type="Self.tbBank" Multiplicity="1" />
+    <End Role="tbCurrencyRate" Type="Self.tbCurrencyRate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbBank">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbCurrencyRate">
+        <PropertyRef Name="cIdBank" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbComins__cIdUse__3C69FB99">
+    <End Role="tbUser" Type="Self.tbUser" Multiplicity="1" />
+    <End Role="tbComins" Type="Self.tbComins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbUser">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbComins">
+        <PropertyRef Name="cIdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbCurrenc__cIdCu__33D4B598">
+    <End Role="tbCurrency" Type="Self.tbCurrency" Multiplicity="1" />
+    <End Role="tbCurrencyRate" Type="Self.tbCurrencyRate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbCurrency">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbCurrencyRate">
+        <PropertyRef Name="cIdCurrency" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbCurrenc__cIdRa__32E0915F">
+    <End Role="tbRate" Type="Self.tbRate" Multiplicity="1" />
+    <End Role="tbCurrencyRate" Type="Self.tbCurrencyRate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbRate">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbCurrencyRate">
+        <PropertyRef Name="cIdRate" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbExpoden__cIdUs__15502E78">
+    <End Role="tbUser" Type="Self.tbUser" Multiplicity="1" />
+    <End Role="tbExpodenture" Type="Self.tbExpodenture" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbUser">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbExpodenture">
+        <PropertyRef Name="cIdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbFromWho__cUser__5FB337D6">
+    <End Role="tbUser" Type="Self.tbUser" Multiplicity="1" />
+    <End Role="tbFromWho" Type="Self.tbFromWho" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbUser">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbFromWho">
+        <PropertyRef Name="cUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbSystemC__cFrom__71D1E811">
+    <End Role="tbFromWho" Type="Self.tbFromWho" Multiplicity="1" />
+    <End Role="tbSystemComin" Type="Self.tbSystemComin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbFromWho">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbSystemComin">
+        <PropertyRef Name="cFromWho" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbUserCom__cFrom__6383C8BA">
+    <End Role="tbFromWho" Type="Self.tbFromWho" Multiplicity="1" />
+    <End Role="tbUserComin" Type="Self.tbUserComin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbFromWho">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbUserComin">
+        <PropertyRef Name="cFromWho" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbIncome__cIdUse__1273C1CD">
+    <End Role="tbUser" Type="Self.tbUser" Multiplicity="1" />
+    <End Role="tbIncome" Type="Self.tbIncome" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbUser">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbIncome">
+        <PropertyRef Name="cIdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbRssUser__cIdNe__4AB81AF0">
+    <End Role="tbNews" Type="Self.tbNews" Multiplicity="1" />
+    <End Role="tbRssUserNews" Type="Self.tbRssUserNews" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbNews">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbRssUserNews">
+        <PropertyRef Name="cIdNews" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbVideos__cIdNew__440B1D61">
+    <End Role="tbNews" Type="Self.tbNews" Multiplicity="1" />
+    <End Role="tbVideos" Type="Self.tbVideos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbNews">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbVideos">
+        <PropertyRef Name="cIdNews" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbOperati__cIdOp__1A14E395">
+    <End Role="tbOperation" Type="Self.tbOperation" Multiplicity="1" />
+    <End Role="tbOperationDetails" Type="Self.tbOperationDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbOperation">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbOperationDetails">
+        <PropertyRef Name="cIdOperation" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbOperati__cIdOp__6B24EA82">
+    <End Role="tbOperation" Type="Self.tbOperation" Multiplicity="1" />
+    <End Role="tbOperationComins" Type="Self.tbOperationComins" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbOperation">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbOperationComins">
+        <PropertyRef Name="cIdOperation" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbRssUser__cIdUs__49C3F6B7">
+    <End Role="tbRssUser" Type="Self.tbRssUser" Multiplicity="1" />
+    <End Role="tbRssUserNews" Type="Self.tbRssUserNews" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbRssUser">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbRssUserNews">
+        <PropertyRef Name="cIdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbUserCom__cIdUs__628FA481">
+    <End Role="tbUser" Type="Self.tbUser" Multiplicity="1" />
+    <End Role="tbUserComin" Type="Self.tbUserComin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbUser">
+        <PropertyRef Name="cId" />
+      </Principal>
+      <Dependent Role="tbUserComin">
+        <PropertyRef Name="cIdUser" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ISharpConvertorEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="tbAdress" EntityType="Self.tbAdress" />
+    <EntitySet Name="tbBank" EntityType="Self.tbBank" />
+    <EntitySet Name="tbComins" EntityType="Self.tbComins" />
+    <EntitySet Name="tbCurrency" EntityType="Self.tbCurrency" />
+    <EntitySet Name="tbCurrencyRate" EntityType="Self.tbCurrencyRate" />
+    <EntitySet Name="tbExpodenture" EntityType="Self.tbExpodenture" />
+    <EntitySet Name="tbFromWho" EntityType="Self.tbFromWho" />
+    <EntitySet Name="tbIncome" EntityType="Self.tbIncome" />
+    <EntitySet Name="tbNews" EntityType="Self.tbNews" />
+    <EntitySet Name="tbOperation" EntityType="Self.tbOperation" />
+    <EntitySet Name="tbOperationComins" EntityType="Self.tbOperationComins" />
+    <EntitySet Name="tbOperationDetails" EntityType="Self.tbOperationDetails" />
+    <EntitySet Name="tbRate" EntityType="Self.tbRate" />
+    <EntitySet Name="tbRssUser" EntityType="Self.tbRssUser" />
+    <EntitySet Name="tbRssUserNews" EntityType="Self.tbRssUserNews" />
+    <EntitySet Name="tbSystemComin" EntityType="Self.tbSystemComin" />
+    <EntitySet Name="tbUser" EntityType="Self.tbUser" />
+    <EntitySet Name="tbUserComin" EntityType="Self.tbUserComin" />
+    <EntitySet Name="tbVideos" EntityType="Self.tbVideos" />
+    <AssociationSet Name="FK__tbAdress__cIdBan__398D8EEE" Association="Self.FK__tbAdress__cIdBan__398D8EEE">
+      <End Role="tbBank" EntitySet="tbBank" />
+      <End Role="tbAdress" EntitySet="tbAdress" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbComins__cIdAdr__3E52440B" Association="Self.FK__tbComins__cIdAdr__3E52440B">
+      <End Role="tbAdress" EntitySet="tbAdress" />
+      <End Role="tbComins" EntitySet="tbComins" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbRssUser__cMail__46E78A0C" Association="Self.FK__tbRssUser__cMail__46E78A0C">
+      <End Role="tbAdress" EntitySet="tbAdress" />
+      <End Role="tbRssUser" EntitySet="tbRssUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbComins__cIdBan__3D5E1FD2" Association="Self.FK__tbComins__cIdBan__3D5E1FD2">
+      <End Role="tbBank" EntitySet="tbBank" />
+      <End Role="tbComins" EntitySet="tbComins" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbCurrencyRate_tbBank_cId" Association="Self.FK_tbCurrencyRate_tbBank_cId">
+      <End Role="tbBank" EntitySet="tbBank" />
+      <End Role="tbCurrencyRate" EntitySet="tbCurrencyRate" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbComins__cIdUse__3C69FB99" Association="Self.FK__tbComins__cIdUse__3C69FB99">
+      <End Role="tbUser" EntitySet="tbUser" />
+      <End Role="tbComins" EntitySet="tbComins" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbCurrenc__cIdCu__33D4B598" Association="Self.FK__tbCurrenc__cIdCu__33D4B598">
+      <End Role="tbCurrency" EntitySet="tbCurrency" />
+      <End Role="tbCurrencyRate" EntitySet="tbCurrencyRate" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbCurrenc__cIdRa__32E0915F" Association="Self.FK__tbCurrenc__cIdRa__32E0915F">
+      <End Role="tbRate" EntitySet="tbRate" />
+      <End Role="tbCurrencyRate" EntitySet="tbCurrencyRate" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbExpoden__cIdUs__15502E78" Association="Self.FK__tbExpoden__cIdUs__15502E78">
+      <End Role="tbUser" EntitySet="tbUser" />
+      <End Role="tbExpodenture" EntitySet="tbExpodenture" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbFromWho__cUser__5FB337D6" Association="Self.FK__tbFromWho__cUser__5FB337D6">
+      <End Role="tbUser" EntitySet="tbUser" />
+      <End Role="tbFromWho" EntitySet="tbFromWho" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbSystemC__cFrom__71D1E811" Association="Self.FK__tbSystemC__cFrom__71D1E811">
+      <End Role="tbFromWho" EntitySet="tbFromWho" />
+      <End Role="tbSystemComin" EntitySet="tbSystemComin" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbUserCom__cFrom__6383C8BA" Association="Self.FK__tbUserCom__cFrom__6383C8BA">
+      <End Role="tbFromWho" EntitySet="tbFromWho" />
+      <End Role="tbUserComin" EntitySet="tbUserComin" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbIncome__cIdUse__1273C1CD" Association="Self.FK__tbIncome__cIdUse__1273C1CD">
+      <End Role="tbUser" EntitySet="tbUser" />
+      <End Role="tbIncome" EntitySet="tbIncome" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbRssUser__cIdNe__4AB81AF0" Association="Self.FK__tbRssUser__cIdNe__4AB81AF0">
+      <End Role="tbNews" EntitySet="tbNews" />
+      <End Role="tbRssUserNews" EntitySet="tbRssUserNews" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbVideos__cIdNew__440B1D61" Association="Self.FK__tbVideos__cIdNew__440B1D61">
+      <End Role="tbNews" EntitySet="tbNews" />
+      <End Role="tbVideos" EntitySet="tbVideos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbOperati__cIdOp__1A14E395" Association="Self.FK__tbOperati__cIdOp__1A14E395">
+      <End Role="tbOperation" EntitySet="tbOperation" />
+      <End Role="tbOperationDetails" EntitySet="tbOperationDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbOperati__cIdOp__6B24EA82" Association="Self.FK__tbOperati__cIdOp__6B24EA82">
+      <End Role="tbOperation" EntitySet="tbOperation" />
+      <End Role="tbOperationComins" EntitySet="tbOperationComins" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbRssUser__cIdUs__49C3F6B7" Association="Self.FK__tbRssUser__cIdUs__49C3F6B7">
+      <End Role="tbRssUser" EntitySet="tbRssUser" />
+      <End Role="tbRssUserNews" EntitySet="tbRssUserNews" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbUserCom__cIdUs__628FA481" Association="Self.FK__tbUserCom__cIdUs__628FA481">
+      <End Role="tbUser" EntitySet="tbUser" />
+      <End Role="tbUserComin" EntitySet="tbUserComin" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(ISharpConvertorModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(ISharpConvertorModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

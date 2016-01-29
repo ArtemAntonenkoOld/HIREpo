@@ -1,0 +1,12 @@
+﻿<script src="~/Scripts/jquery-1.8.2.min.js"></script>
+<script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+@using (Ajax.BeginForm("_GetAllBanksByCityMathod", new AjaxOptions { UpdateTargetId = "results" }))
+{
+    <select class=" enjoy-css_input first" name="country">
+        <option>Україна</option>
+    </select>
+    <input type="text" name="city" class="enjoy-css_input" />
+   
+    <input type="submit" class="enjoy-css_button" value="Пошук" />
+}
+<div id="results"></div>

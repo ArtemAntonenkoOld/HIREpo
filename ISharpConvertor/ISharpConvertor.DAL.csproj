@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{595B1C08-9B1D-40F2-BB22-273B84284034}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ISharpConvertor</RootNamespace>
+    <AssemblyName>ISharpConvertor</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract\GenericRepository.cs" />
+    <Compile Include="Abstract\IFromWhoRepository.cs" />
+    <Compile Include="Abstract\IVideosRepository.cs" />
+    <Compile Include="Abstract\IUserCominRepository.cs" />
+    <Compile Include="Abstract\ISystemCominRepository.cs" />
+    <Compile Include="Abstract\IRssUserNewsRepository.cs" />
+    <Compile Include="Abstract\IRssUserRepository.cs" />
+    <Compile Include="Abstract\IRateRepository.cs" />
+    <Compile Include="Abstract\IOperationCominsRepository.cs" />
+    <Compile Include="Abstract\IOperationDetailsRepository.cs" />
+    <Compile Include="Abstract\IOperationRepository.cs" />
+    <Compile Include="Abstract\IExpodentureRepository.cs" />
+    <Compile Include="Abstract\ICurrencyRateRepository.cs" />
+    <Compile Include="Abstract\ICurrencyRepository .cs" />
+    <Compile Include="Abstract\INewsRepository.cs" />
+    <Compile Include="Abstract\IIncomeRepository.cs" />
+    <Compile Include="Abstract\ICominsRepository.cs" />
+    <Compile Include="Abstract\IBankRepository.cs" />
+    <Compile Include="Abstract\IAdressRepository.cs" />
+    <Compile Include="Abstract\IBaseRepository.cs" />
+    <Compile Include="Abstract\IRepositoryHolder.cs" />
+    <Compile Include="Concrate\RssUserRepository.cs" />
+    <Compile Include="Concrate\UserCominRepostory.cs" />
+    <Compile Include="Concrate\VideosRepository.cs" />
+    <Compile Include="Concrate\SystemCominRepositary.cs" />
+    <Compile Include="Concrate\RssUserNewsRepository.cs" />
+    <Compile Include="Concrate\RateRepository.cs" />
+    <Compile Include="Concrate\OperationDetailsRepository.cs" />
+    <Compile Include="Concrate\OperationCominsRepository.cs" />
+    <Compile Include="Concrate\OperationRepository.cs" />
+    <Compile Include="Concrate\NewsRepository.cs" />
+    <Compile Include="Concrate\IncomeRepository.cs" />
+    <Compile Include="Concrate\FromWhoRepository.cs" />
+    <Compile Include="Concrate\ExpodentureRepository.cs" />
+    <Compile Include="Concrate\CurrencyRateRepository.cs" />
+    <Compile Include="Concrate\CurrencyRepository.cs" />
+    <Compile Include="Concrate\CominsRepository.cs" />
+    <Compile Include="Concrate\BankRepository.cs" />
+    <Compile Include="Concrate\AdressRepository.cs" />
+    <Compile Include="Concrate\HolderRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ISharpConvertor.Entity\ISharpConvertor.Entity.csproj">
+      <Project>{27e8b598-17bf-483c-9705-f6dbc33fa95f}</Project>
+      <Name>ISharpConvertor.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

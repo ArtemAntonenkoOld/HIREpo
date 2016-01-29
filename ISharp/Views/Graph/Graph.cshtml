@@ -1,0 +1,39 @@
+﻿@model IEnumerable<ISharpConvertor.UIModels.OnlyBankModel>
+<section id="wrapper">
+    <div class="container">
+        <div class="rectangle">
+            <h2>Моніторинг курсу валют і тенденції банків.</h2>
+
+        </div>
+
+        <div class="left_tri"></div>
+        <div class="right_tri"></div>
+        <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+        <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+        <div id="content">
+            
+
+                @using (Ajax.BeginForm("_GetGraph", new AjaxOptions { UpdateTargetId = "results" }))
+                {
+                    <input type="date" class="enjoy-css_input" placeholder="Початкова дата" name="startdate" />
+                    <input type="date" class="enjoy-css_input" placeholder="Кінцева дата" name="enddate" />
+                    <input type="text" class="enjoy-css_input" placeholder="Банк" name="bank" />
+
+                     
+                    <input type="text" class="enjoy-css_input" placeholder="Валюта" name="currency"/>
+                     <div style="text-align:center;margin-top:20px;">
+                             <input type="submit" class="enjoy-css_button currency-btn" value="Відобразити">
+                            <select class="enjoy-css_input" placeholder="Банк" name="sellbuy">
+                              <option>Купівля</option>
+                                <option>Продаж</option>
+                             </select>
+                    </div>
+                }
+            
+            <div id="results">
+
+            </div>
+
+        </div>
+        </div>
+</section>

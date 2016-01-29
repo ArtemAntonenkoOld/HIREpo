@@ -1,0 +1,32 @@
+﻿<section id="wrapper">
+    <div class="container">
+        <div class="rectangle">
+            <h2>Моніторинг курсу валют і тенденції банків.</h2>
+
+        </div>
+
+        <div class="left_tri"></div>
+        <div class="right_tri"></div>
+        <script src="~/Scripts/jquery-1.8.2.min.js"></script>
+        <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+        <div id="content">
+
+
+
+            @using (Ajax.BeginForm("_CalculateMethod", new AjaxOptions { UpdateTargetId = "results" }))
+            {
+                <input type="text" class="enjoy-css_input" placeholder="купівля продаж" name="sellbuy" />
+                <input type="text" class="enjoy-css_input" placeholder="Введіть валюту" name="rate" />
+                <input type="text" class="enjoy-css_input" placeholder="Виберіть початкову валюту" name="currency1" />
+                <input type="text" class="enjoy-css_input" placeholder="Виберіть кінцеву валюту" name="currency2" />
+                <input type="text" class="enjoy-css_input" placeholder="Виберіть банк" name="bank"/>
+    
+                <input type="submit" class="enjoy-css_button" value="Відобразити">
+            }
+            <div id="results">
+
+            </div>
+
+        </div>
+    </div>
+</section>

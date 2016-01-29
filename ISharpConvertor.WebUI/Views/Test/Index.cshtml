@@ -1,0 +1,23 @@
+﻿
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="../Scripts/jquery.unobtrusive-ajax.js"></script>
+<div>
+    @using (Ajax.BeginForm("TestView", new AjaxOptions { UpdateTargetId = "results" }))
+    {
+        <input type="text" name="id" placeholder="Введіть назву банку" />
+        <input type="submit" value="Поиск" />
+    }
+    
+    <div id="results">
+
+
+        <div id="map" style="width: 600px; height: 400px"></div>
+    </div>
+
+    @using (Ajax.BeginForm("TestChart", new AjaxOptions { UpdateTargetId = "resultschart" }))
+    {
+        <input type="text" name="id" placeholder="Введіть назву банку" />
+        <input type="submit" value="Поиск" />
+    }
+    <div id="resultschart"></div>
+</div>

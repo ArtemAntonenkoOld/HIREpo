@@ -1,0 +1,64 @@
+E:\Сдача\ISharpConvertor\ISharpConvertor.Console\obj\Debug\ISharpConvertor.Console.csprojResolveAssemblyReference.cache
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.Console.exe.config
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.Console.exe
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.Console.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\EntityFramework.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.BL.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.Entity.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.UIModels.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\RestSharp.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.BL.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.Entity.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.UIModels.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\EntityFramework.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\RestSharp.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\obj\Debug\ISharpConvertor.Console.csprojResolveAssemblyReference.cache
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\obj\Debug\ISharpConvertor.Console.exe
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.Console\obj\Debug\ISharpConvertor.Console.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.Console.exe.config
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.Console.exe
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.Console.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\EntityFramework.dll
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\EntityFramework.SqlServer.dll
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.BL.dll
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.dll
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.Entity.dll
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.UIModels.dll
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\RestSharp.dll
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.BL.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.Entity.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.UIModels.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\EntityFramework.xml
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\EntityFramework.SqlServer.xml
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\RestSharp.xml
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ru\EntityFramework.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.Console\obj\Debug\ISharpConvertor.Console.csprojResolveAssemblyReference.cache
+E:\Final\ISharpConvertor\ISharpConvertor.Console\obj\Debug\ISharpConvertor.Console.exe
+E:\Final\ISharpConvertor\ISharpConvertor.Console\obj\Debug\ISharpConvertor.Console.pdb
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.Console.exe.config
+D:\Final\ISharpConvertor\ISharpConvertor.Console\obj\Debug\ISharpConvertor.Console.exe
+D:\Final\ISharpConvertor\ISharpConvertor.Console\obj\Debug\ISharpConvertor.Console.pdb
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.Console.exe
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.Console.pdb
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\EntityFramework.dll
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\EntityFramework.SqlServer.dll
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.BL.dll
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.dll
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.Entity.dll
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.UIModels.dll
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\RestSharp.dll
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.BL.pdb
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.Entity.pdb
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.UIModels.pdb
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\ISharpConvertor.pdb
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\EntityFramework.xml
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\EntityFramework.SqlServer.xml
+D:\Final\ISharpConvertor\ISharpConvertor.Console\bin\Debug\RestSharp.xml
+D:\Final\ISharpConvertor\ISharpConvertor.Console\obj\Debug\ISharpConvertor.Console.csprojResolveAssemblyReference.cache

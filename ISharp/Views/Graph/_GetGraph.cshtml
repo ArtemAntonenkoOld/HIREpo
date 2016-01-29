@@ -1,0 +1,77 @@
+﻿@model IEnumerable<ISharpConvertor.UIModels.GraphModel>
+
+
+<div class="chart">
+    <div class="ct-chart ct-golden-section" ></div>
+</div>
+<script src="~/Scripts/chart.js"></script>
+
+<script>
+    new Chartist.Line('.ct-chart', {
+        labels: [@foreach(var item in Model){
+                    <text>
+
+                    '@item.Date', 
+                 </text>
+                } ],
+                 
+                 series: [
+
+
+            [
+                @foreach(var item in Model){
+                <text>
+                    @item.Rate,
+    </text>
+            }
+            ]]
+    }, {
+        low: 0,
+        showArea: false
+    });
+
+</script>
+<!--
+
+
+
+
+
+
+-->
+
+<script type ="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+    google.charts.load('current', { 'packages': ['corechart'] });
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Рік', '@Model.FirstOrDefault().Currency'], @foreach(var item in Model){
+              <text>
+
+          ["@item.Date.ToShortDateString()", @item.Rate],</text>
+          }
+        ]);
+
+        var options = {
+            title: '',
+            curveType: 'function',
+            legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+    }
+</script>
+  
+    <div id="curve_chart" style="width: 100%; height: 500px"></div>
+<!--
+    
+
+
+
+
+
+-->

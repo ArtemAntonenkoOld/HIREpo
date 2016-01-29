@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ISharpConvertorModelContainer" CdmEntityContainer="ISharpConvertorEntities">
+    <EntitySetMapping Name="tbAdress">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbAdress">
+        <MappingFragment StoreEntitySet="tbAdress">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cAdressVal" ColumnName="cAdressVal" />
+          <ScalarProperty Name="cIdBank" ColumnName="cIdBank" />
+          <ScalarProperty Name="cStreet" ColumnName="cStreet" />
+          <ScalarProperty Name="cCity" ColumnName="cCity" />
+          <ScalarProperty Name="cCountry" ColumnName="cCountry" />
+          <ScalarProperty Name="cLongitude" ColumnName="cLongitude" />
+          <ScalarProperty Name="cLatitude" ColumnName="cLatitude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbBank">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbBank">
+        <MappingFragment StoreEntitySet="tbBank">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cName" ColumnName="cName" />
+          <ScalarProperty Name="cRating" ColumnName="cRating" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbComins">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbComins">
+        <MappingFragment StoreEntitySet="tbComins">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cTopic" ColumnName="cTopic" />
+          <ScalarProperty Name="cDecription" ColumnName="cDecription" />
+          <ScalarProperty Name="cIdUser" ColumnName="cIdUser" />
+          <ScalarProperty Name="cIdBank" ColumnName="cIdBank" />
+          <ScalarProperty Name="cIdAdress" ColumnName="cIdAdress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbCurrency">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbCurrency">
+        <MappingFragment StoreEntitySet="tbCurrency">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cCurrencyLong" ColumnName="cCurrencyLong" />
+          <ScalarProperty Name="cCurrencyShort" ColumnName="cCurrencyShort" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbCurrencyRate">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbCurrencyRate">
+        <MappingFragment StoreEntitySet="tbCurrencyRate">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cIdRate" ColumnName="cIdRate" />
+          <ScalarProperty Name="cIdCurrency" ColumnName="cIdCurrency" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbExpodenture">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbExpodenture">
+        <MappingFragment StoreEntitySet="tbExpodenture">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cTime" ColumnName="cTime" />
+          <ScalarProperty Name="cSume" ColumnName="cSume" />
+          <ScalarProperty Name="cCurrency" ColumnName="cCurrency" />
+          <ScalarProperty Name="cIdUser" ColumnName="cIdUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbFromWho">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbFromWho">
+        <MappingFragment StoreEntitySet="tbFromWho">
+          <ScalarProperty Name="cName" ColumnName="cName" />
+          <ScalarProperty Name="cUserId" ColumnName="cUserId" />
+          <ScalarProperty Name="cId" ColumnName="cId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbIncome">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbIncome">
+        <MappingFragment StoreEntitySet="tbIncome">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cTime" ColumnName="cTime" />
+          <ScalarProperty Name="cSume" ColumnName="cSume" />
+          <ScalarProperty Name="cCurrency" ColumnName="cCurrency" />
+          <ScalarProperty Name="cIdUser" ColumnName="cIdUser" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbNews">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbNews">
+        <MappingFragment StoreEntitySet="tbNews">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cTopic" ColumnName="cTopic" />
+          <ScalarProperty Name="cDescription" ColumnName="cDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbOperation">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbOperation">
+        <MappingFragment StoreEntitySet="tbOperation">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cOperationType" ColumnName="cOperationType" />
+          <ScalarProperty Name="cIsFinished" ColumnName="cIsFinished" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbOperationComins">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbOperationComins">
+        <MappingFragment StoreEntitySet="tbOperationComins">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cIdOperation" ColumnName="cIdOperation" />
+          <ScalarProperty Name="cDescription" ColumnName="cDescription" />
+          <ScalarProperty Name="cTopic" ColumnName="cTopic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbOperationDetails">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbOperationDetails">
+        <MappingFragment StoreEntitySet="tbOperationDetails">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cType" ColumnName="cType" />
+          <ScalarProperty Name="cParams" ColumnName="cParams" />
+          <ScalarProperty Name="cIdOperation" ColumnName="cIdOperation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbRate">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbRate">
+        <MappingFragment StoreEntitySet="tbRate">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cRate" ColumnName="cRate" />
+          <ScalarProperty Name="cDate" ColumnName="cDate" />
+          <ScalarProperty Name="cIsValid" ColumnName="cIsValid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbRssUser">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbRssUser">
+        <MappingFragment StoreEntitySet="tbRssUser">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cMail" ColumnName="cMail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbRssUserNews">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbRssUserNews">
+        <MappingFragment StoreEntitySet="tbRssUserNews">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cIdUser" ColumnName="cIdUser" />
+          <ScalarProperty Name="cIdNews" ColumnName="cIdNews" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbSystemComin">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbSystemComin">
+        <MappingFragment StoreEntitySet="tbSystemComin">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cFromWho" ColumnName="cFromWho" />
+          <ScalarProperty Name="cTopic" ColumnName="cTopic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbUser">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbUser">
+        <MappingFragment StoreEntitySet="tbUser">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cName" ColumnName="cName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbUserComin">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbUserComin">
+        <MappingFragment StoreEntitySet="tbUserComin">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cIdUser" ColumnName="cIdUser" />
+          <ScalarProperty Name="cFromWho" ColumnName="cFromWho" />
+          <ScalarProperty Name="cTopic" ColumnName="cTopic" />
+          <ScalarProperty Name="cDescription" ColumnName="cDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbVideos">
+      <EntityTypeMapping TypeName="ISharpConvertorModel.tbVideos">
+        <MappingFragment StoreEntitySet="tbVideos">
+          <ScalarProperty Name="cId" ColumnName="cId" />
+          <ScalarProperty Name="cSource" ColumnName="cSource" />
+          <ScalarProperty Name="cIdNews" ColumnName="cIdNews" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

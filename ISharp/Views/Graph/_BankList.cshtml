@@ -1,0 +1,6 @@
+﻿@model IEnumerable<ISharpConvertor.UIModels.OnlyBankModel>
+<select name="bank">
+    @foreach(var item in Model){
+    <option>@item.Name</option>
+    }
+</select>

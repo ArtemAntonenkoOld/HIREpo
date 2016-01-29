@@ -1,0 +1,11 @@
+E:\Сдача\ISharpConvertor\ISharpConvertor.Entity\bin\Release\ISharpConvertor.Entity.dll.config
+E:\Сдача\ISharpConvertor\ISharpConvertor.Entity\bin\Release\ISharpConvertor.Entity.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.Entity\bin\Release\ISharpConvertor.Entity.pdb
+E:\Сдача\ISharpConvertor\ISharpConvertor.Entity\bin\Release\EntityFramework.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.Entity\bin\Release\EntityFramework.SqlServer.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.Entity\bin\Release\EntityFramework.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.Entity\bin\Release\EntityFramework.SqlServer.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.Entity\bin\Release\ru\EntityFramework.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.Entity\obj\Release\ISharpConvertor.Entity.csprojResolveAssemblyReference.cache
+E:\Сдача\ISharpConvertor\ISharpConvertor.Entity\obj\Release\ISharpConvertor.Entity.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.Entity\obj\Release\ISharpConvertor.Entity.pdb

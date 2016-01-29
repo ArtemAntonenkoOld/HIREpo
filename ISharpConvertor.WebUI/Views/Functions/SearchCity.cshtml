@@ -1,0 +1,13 @@
+﻿
+
+    @using (Ajax.BeginForm("_Search", new AjaxOptions { UpdateTargetId = "results" }))
+    {
+        <input type="text" name="city" placeholder="vvedit misto" />
+        <input type="text" name="country" placeholder="vvedit country" />
+
+        <input type="submit" class="hidden_map" value="Показати на мапі" />
+    }
+
+<div id="results" style="width:510px; height:400px; float:left;">
+
+</div>

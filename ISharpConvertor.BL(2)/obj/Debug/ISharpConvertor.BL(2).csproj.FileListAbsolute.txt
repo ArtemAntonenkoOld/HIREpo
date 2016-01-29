@@ -1,0 +1,4 @@
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL(2)\bin\Debug\ISharpConvertor.BL(2).dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL(2)\bin\Debug\ISharpConvertor.BL(2).pdb
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL(2)\obj\Debug\ISharpConvertor.BL(2).dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL(2)\obj\Debug\ISharpConvertor.BL(2).pdb

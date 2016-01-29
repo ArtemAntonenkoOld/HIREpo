@@ -1,0 +1,209 @@
+﻿@{ 
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}<!--
+
+    <ul id="mainMenu">
+        <li style="background-color: #6d6e72;">@Html.ActionLink("Списки валют", "Currency", "Functions", new { area = "" }, new { @class = "" })</li>
+        <li style="background-color: #6d6e70;">@Html.ActionLink("Расположение ближайших банков/банкоматов", "Bank", "Functions", new { area = "" }, new { @class = "" })</li>
+        <li style="background-color: #6d6e69;">@Html.ActionLink("*Найти оптимальный банк по растоянию", "Optimal", "Functions", new { area = "" }, new { @class = "" })</li>
+        <li style="background-color: #6d6e66;">@Html.ActionLink("Мониторинг прихода расхода cредств", "Monitoring", "Functions", new { area = "" }, new { @class = "" })</li>
+        <li style="background-color: #6d6e64;">@Html.ActionLink("График курса банков", "Graph", "Functions", new { area = "" }, new { @class = "" })</li>
+        <li style="background-color: #6d6e62;">@Html.ActionLink("Поиск популярных банков", "Popular", "Functions", new { area = "" }, new { @class = "" })</li>
+        <li style="background-color: #6d6e60;">@Html.ActionLink("Отзывы о банках, клиентах, сервисе", "Story", "Functions", new { area = "" }, new { @class = "" })</li>
+        <li style="background-color: #6d6e58;">@Html.ActionLink("Обмен валютами с клиентами", "Trasfare", "Functions", new { area = "" }, new { @class = "" })</li>
+        <li style="background-color: #6d6e56;">@Html.ActionLink("Как это работает?", "Work", "Work", new { area = "" }, new { @class = "" })</li>
+    </ul>
+
+
+
+   
+
+
+    <div id="zagor">
+    </div>
+    <div id="vstavMne">
+        228322
+    </div>
+
+
+-->
+<html ng-app="YmapsDemo" data-livestyle-extension="available" class="ng-scope">
+<head>
+   <meta charset="utf-8">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/css/bootstrap.min.css">
+    <link rel="stylesheet" href="github.css">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
+    <script src="angular-ymaps.js"></script>
+    <script src="app.js"></script>
+    <script type="text/javascript" src="highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <style type="text/css" data-ymaps="css-modules">
+        .ymaps-2-1-34-node-size-parent-style {
+            visibility: hidden !important;
+            position: absolute;
+            overflow: hidden;
+            width: 0;
+            height: 0;
+            display: block;
+            zoom: 1 !important;
+        }
+
+        .ymaps-2-1-34-node-size-parent-pane-style {
+            visibility: hidden !important;
+            position: relative;
+            overflow: visible;
+            display: block;
+            zoom: 1 !important;
+        }
+
+        .ymaps-2-1-34-node-size-node-style {
+            position: absolute !important;
+            overflow: hidden !important;
+            overflow-x: hidden !important;
+            overflow-y: hidden !important;
+            zoom: 1 !important;
+            display: block !important;
+        }
+
+        .ymaps-2-1-34-node-size-w3c-box-model-test {
+            width: 100px !important;
+            border-left-width: 10px !important;
+            overflow: hidden !important;
+            overflow-x: hidden !important;
+            overflow-y: hidden !important;
+        }
+
+        .ymaps-2-1-34-node-size-paddings-test {
+            width: 0 !important;
+            height: 0 !important;
+            border-width: 0 !important;
+            border-top-width: 0 !important;
+            border-right-width: 0 !important;
+            border-bottom-width: 0 !important;
+            border-left-width: 0 !important;
+            overflow: hidden !important;
+            overflow-x: hidden !important;
+            overflow-y: hidden !important;
+            display: block !important;
+        }
+
+        .ymaps-2-1-34-node-size-no-scrolls-test {
+            position: absolute !important;
+            display: block !important;
+            left: 0 !important;
+            top: 0 !important;
+            width: 100px !important;
+            height: 100px !important;
+            overflow: hidden !important;
+            overflow-x: hidden !important;
+            overflow-y: hidden !important;
+            visibility: visible !important;
+        }
+
+        .ymaps-2-1-34-node-size-scrolls-test {
+            overflow: scroll !important;
+            overflow-x: scroll !important;
+            overflow-y: scroll !important;
+        }
+        /**/
+    </style>
+
+    <style type="text/css" data-ymaps="svg">
+        .ymaps___api_maps_yandex_ru_2_1_34_1107548724203islands_icon___1BAD03_1451985550767 {
+            display: block;
+            background-image: url(data:image/png;base64,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);
+            background-size: 34px 41px;
+        }
+    </style>
+</head>
+<body ng-controller="MapCtrl" class="ng-scope">
+    <header class="header">
+        <h1>Удобная работа с Яндекс-картами</h1>
+        <p>Модуль для добавления карт через AngularJS</p>
+        <div class="btn-group">
+            <a href="https://github.com/just-boris/angular-ymaps/" class="btn btn-success">Код на Github</a>
+            <a href="#docs" class="btn btn-default">Документация</a>
+            <a href="#examples" class="btn btn-default">Примеры</a>
+            <a href="angular-ymaps.js" class="btn btn-danger">Скачать</a>
+        </div>
+    </header>
+    <div class="demo_content clearfix">
+        <div class="controls col-sm-6">
+            <h3>Пример работы:</h3>
+            <p>Таблица связана с маркерами на карте, можно добавлять и удалять их, а также изменять координаты. Все изменения автоматически отразятся на карте.</p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Широта</th>
+                        <th>Долгота</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- ngRepeat: marker in markers -->
+                    <tr ng-repeat="marker in markers" class="ng-scope">
+                        <td class="ng-binding">1</td>
+                        <td><input type="text" ng-model="marker.coordinates[0]" class="form-control ng-pristine ng-valid"></td>
+                        <td><input type="text" ng-model="marker.coordinates[1]" class="form-control ng-pristine ng-valid"></td>
+                        <td><button type="button" class="close" ng-click="removeMarker(marker)">×</button></td>
+                    </tr><!-- end ngRepeat: marker in markers -->
+                    <tr ng-repeat="marker in markers" class="ng-scope">
+                        <td class="ng-binding">2</td>
+                        <td><input type="text" ng-model="marker.coordinates[0]" class="form-control ng-pristine ng-valid"></td>
+                        <td><input type="text" ng-model="marker.coordinates[1]" class="form-control ng-pristine ng-valid"></td>
+                        <td><button type="button" class="close" ng-click="removeMarker(marker)">×</button></td>
+                    </tr><!-- end ngRepeat: marker in markers -->
+                    <tr ng-repeat="marker in markers" class="ng-scope">
+                        <td class="ng-binding">3</td>
+                        <td><input type="text" ng-model="marker.coordinates[0]" class="form-control ng-pristine ng-valid"></td>
+                        <td><input type="text" ng-model="marker.coordinates[1]" class="form-control ng-pristine ng-valid"></td>
+                        <td><button type="button" class="close" ng-click="removeMarker(marker)">×</button></td>
+                    </tr><!-- end ngRepeat: marker in markers -->
+                    <tr ng-repeat="marker in markers" class="ng-scope">
+                        <td class="ng-binding">4</td>
+                        <td><input type="text" ng-model="marker.coordinates[0]" class="form-control ng-pristine ng-valid"></td>
+                        <td><input type="text" ng-model="marker.coordinates[1]" class="form-control ng-pristine ng-valid"></td>
+                        <td><button type="button" class="close" ng-click="removeMarker(marker)">×</button></td>
+                    </tr><!-- end ngRepeat: marker in markers -->
+                    <tr ng-repeat="marker in markers" class="ng-scope">
+                        <td class="ng-binding">5</td>
+                        <td><input type="text" ng-model="marker.coordinates[0]" class="form-control ng-pristine ng-valid"></td>
+                        <td><input type="text" ng-model="marker.coordinates[1]" class="form-control ng-pristine ng-valid"></td>
+                        <td><button type="button" class="close" ng-click="removeMarker(marker)">×</button></td>
+                    </tr><!-- end ngRepeat: marker in markers -->
+                    <tr ng-repeat="marker in markers" class="ng-scope">
+                        <td class="ng-binding">6</td>
+                        <td><input type="text" ng-model="marker.coordinates[0]" class="form-control ng-pristine ng-valid"></td>
+                        <td><input type="text" ng-model="marker.coordinates[1]" class="form-control ng-pristine ng-valid"></td>
+                        <td><button type="button" class="close" ng-click="removeMarker(marker)">×</button></td>
+                    </tr><!-- end ngRepeat: marker in markers -->
+                    <tr ng-repeat="marker in markers" class="ng-scope">
+                        <td class="ng-binding">7</td>
+                        <td><input type="text" ng-model="marker.coordinates[0]" class="form-control ng-pristine ng-valid"></td>
+                        <td><input type="text" ng-model="marker.coordinates[1]" class="form-control ng-pristine ng-valid"></td>
+                        <td><button type="button" class="close" ng-click="removeMarker(marker)">×</button></td>
+                    </tr><!-- end ngRepeat: marker in markers -->
+                    <tr ng-show="addingMarker" class="ng-hide">
+                        <td>*</td>
+                        <td><input type="text" ng-model="markerLat" placeholder="Lat" class="form-control ng-pristine ng-invalid ng-invalid-required" required=""></td>
+                        <td><input type="text" ng-model="markerLon" placeholder="Lon" class="form-control ng-pristine ng-invalid ng-invalid-required" required=""></td>
+                        <td><button type="button" class="close" ng-click="submitMarker(markerLat, markerLon)" title="Добавить">+</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-default btn-block add_button" ng-hide="addingMarker" ng-click="addMarker()">Добавить маркер</button>
+        </div>
+        <yandex-map class="map_container col-sm-6 ng-isolate-scope" center="map.center" zoom="map.zoom">
+            <ymaps class="ymaps-2-1-34-map ymaps-2-1-34-i-ua_js_yes ymaps-2-1-34-map-ru" style="width: 391px; height: 488px;"><ymaps class="ymaps-2-1-34-inner-panes"><ymaps class="ymaps-2-1-34-events-pane ymaps-2-1-34-user-selection-none" unselectable="on" style="height: 100%; width: 100%; position: absolute; transform: translate3d(0px, 0px, 0px) scale(1, 1); z-index: 3000; cursor: url(&quot;//api-maps.yandex.ru/2.1.34/./build/release//images/util_cursor_storage_grab.cur&quot;) 16 16, url(&quot;//api-maps.yandex.ru/2.1.34/./build/release//images/util_cursor_storage_grab.cur&quot;), move;"></ymaps><ymaps class="ymaps-2-1-34-ground-pane" style="position: absolute; transform: translate3d(0px, 0px, 0px) scale(1, 1); transition-duration: 0ms; z-index: 601;"><ymaps style="z-index: 150; position: absolute;"><canvas height="744" width="647" style="position: absolute; width: 647px; height: 744px; left: -128px; top: -128px;"></canvas></ymaps></ymaps><ymaps class="ymaps-2-1-34-copyrights-pane" style="height: 0px; bottom: 5px; top: auto; right: 3px; left: 10px; position: absolute; transform: translate3d(0px, 0px, 0px) scale(1, 1); z-index: 6002;"><ymaps><ymaps class="ymaps-2-1-34-islets_gotoymaps"><ymaps class="ymaps-2-1-34-islets_gotoymaps__icon"></ymaps><ymaps class="ymaps-2-1-34-islets_gotoymaps__text">Открыть в Яндекс.Картах</ymaps></ymaps></ymaps><ymaps><ymaps class="ymaps-2-1-34-copyright ymaps-2-1-34-copyright_logo_no"><ymaps class="ymaps-2-1-34-copyright__fog">…</ymaps><ymaps class="ymaps-2-1-34-copyright__wrap"><ymaps class="ymaps-2-1-34-copyright__layout"><ymaps class="ymaps-2-1-34-copyright__content-cell"><ymaps class="ymaps-2-1-34-copyright__content"><ymaps class="ymaps-2-1-34-copyright__text">© Яндекс</ymaps><ymaps class="ymaps-2-1-34-copyright__agreement">&nbsp;<a class="ymaps-2-1-34-copyright__link" target="_blank" href="http://legal.yandex.ru/maps_termsofuse/">Условия</a></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-copyright__logo-cell"><a class="ymaps-2-1-34-copyright__logo" href="" target="_blank"></a></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-controls-pane" style="width: 100%; position: absolute; transform: translate3d(0px, 0px, 0px) scale(1, 1); z-index: 5403;"><ymaps class="ymaps-2-1-34-controls__toolbar" style="margin-top: 10px;"><ymaps class="ymaps-2-1-34-controls__toolbar_left"><ymaps class="ymaps-2-1-34-controls__control_toolbar ymaps-2-1-34-user-selection-none" unselectable="on" style="margin-right: 0px; margin-left: 10px;"><ymaps><ymaps class="ymaps-2-1-34-button ymaps-2-1-34-button_size_s ymaps-2-1-34-button_theme_normal ymaps-2-1-34-button_icon_only" role="button" type="button" style="max-width: 90px" title="Определить Ваше местоположение"><ymaps class="ymaps-2-1-34-button__text"><ymaps class="ymaps-2-1-34-button__icon ymaps-2-1-34-button__icon_icon_geolocation"></ymaps><ymaps class="ymaps-2-1-34-button__title" style="display: none;"></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-controls__control_toolbar" style="margin-right: 0px; margin-left: 10px;"><ymaps><ymaps class="ymaps-2-1-34-search ymaps-2-1-34-search_layout_common"><ymaps id="id_145198552989486116842" class="ymaps-2-1-34-user-selection-none" unselectable="on"><ymaps><ymaps class="ymaps-2-1-34-button ymaps-2-1-34-button_size_s ymaps-2-1-34-button_theme_normal ymaps-2-1-34-button_icon_only" role="button" type="button" style="max-width: 30px" title="Найти"><ymaps class="ymaps-2-1-34-button__text"><ymaps class="ymaps-2-1-34-button__icon ymaps-2-1-34-button__icon_icon_magnifier" style="display: inline-block;"></ymaps><ymaps class="ymaps-2-1-34-button__title">Найти</ymaps></ymaps></ymaps></ymaps></ymaps><ymaps id="id_145198552989486116843"></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-controls__toolbar_right"><ymaps class="ymaps-2-1-34-controls__control_toolbar" style="margin-right: 10px; margin-left: 0px;"><ymaps><ymaps class="ymaps-2-1-34-traffic"><ymaps id="id_145198552989486116677" unselectable="on" class="ymaps-2-1-34-user-selection-none"><ymaps><ymaps class="ymaps-2-1-34-button ymaps-2-1-34-button_size_s ymaps-2-1-34-button_traffic_left ymaps-2-1-34-button_theme_normal ymaps-2-1-34-button_icon_only" role="button" type="button" style=""><ymaps class="ymaps-2-1-34-button__text"><ymaps class="ymaps-2-1-34-traffic__icon ymaps-2-1-34-traffic__icon_icon_off ymaps-2-1-34-button__icon"></ymaps><ymaps class="ymaps-2-1-34-button__title"><ymaps>Пробки</ymaps></ymaps></ymaps></ymaps></ymaps><ymaps></ymaps></ymaps><ymaps id="id_145198552989486116678"><ymaps><ymaps class="ymaps-2-1-34-traffic__panel ymaps-2-1-34-popup ymaps-2-1-34-popup_direction_down ymaps-2-1-34-popup_to_bottom ymaps-2-1-34-popup_theme_ffffff ymaps-2-1-34-user-selection-none" unselectable="on" style="width: 252px;"><ymaps class="ymaps-2-1-34-traffic__tail ymaps-2-1-34-popup__tail"></ymaps><ymaps class="ymaps-2-1-34-traffic__panel-content"><ymaps id="id_145198552989486116679"><ymaps><ymaps class="ymaps-2-1-34-traffic__switcher"><ymaps class="ymaps-2-1-34-traffic__switcher-item ymaps-2-1-34-traffic__switcher-item_data_actual ymaps-2-1-34-traffic__switcher-item_selected_yes">Сегодня</ymaps><ymaps class="ymaps-2-1-34-traffic__switcher-item ymaps-2-1-34-traffic__switcher-item_data_archive">Статистика</ymaps></ymaps></ymaps></ymaps><ymaps></ymaps><ymaps></ymaps><ymaps></ymaps><ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-controls__control_toolbar" style="margin-right: 10px; margin-left: 0px;"><ymaps><ymaps class="ymaps-2-1-34-listbox ymaps-2-1-34-listbox_opened_no ymaps-2-1-34-listbox_align_right" style="width: 28px;"><ymaps class="ymaps-2-1-34-button ymaps-2-1-34-button_size_s ymaps-2-1-34-button_theme_normal ymaps-2-1-34-user-selection-none ymaps-2-1-34-button_icon_only" role="button" type="button" title="" unselectable="on"><ymaps class="ymaps-2-1-34-button__text"><ymaps class="ymaps-2-1-34-button__icon ymaps-2-1-34-button__icon_icon_layers" style="display: inline-block;"></ymaps><ymaps class="ymaps-2-1-34-button__title" style="display: none;">Слои</ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-listbox__panel ymaps-2-1-34-i-custom-scroll" style="transform: translate3d(0px, 0px, 0px) scale(1, 1);"><ymaps class="ymaps-2-1-34-listbox__list" style="max-height: 434px;"><ymaps><ymaps><ymaps id="id_145198552989486116693"><ymaps unselectable="on" class="ymaps-2-1-34-user-selection-none"><ymaps class="ymaps-2-1-34-listbox__list-item ymaps-2-1-34-listbox__list-item_selected_yes"><ymaps class="ymaps-2-1-34-listbox__list-item-text">Схема</ymaps></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps><ymaps><ymaps id="id_145198552989486116696"><ymaps unselectable="on" class="ymaps-2-1-34-user-selection-none"><ymaps class="ymaps-2-1-34-listbox__list-item ymaps-2-1-34-listbox__list-item_selected_no"><ymaps class="ymaps-2-1-34-listbox__list-item-text">Спутник</ymaps></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps><ymaps><ymaps id="id_145198552989486116699"><ymaps unselectable="on" class="ymaps-2-1-34-user-selection-none"><ymaps class="ymaps-2-1-34-listbox__list-item ymaps-2-1-34-listbox__list-item_selected_no"><ymaps class="ymaps-2-1-34-listbox__list-item-text">Гибрид</ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-controls__control_toolbar ymaps-2-1-34-user-selection-none" unselectable="on" style="margin-right: 10px; margin-left: 0px;"><ymaps><ymaps class="ymaps-2-1-34-button ymaps-2-1-34-button_size_s ymaps-2-1-34-button_theme_normal ymaps-2-1-34-button_icon_only" role="button" type="button" style="max-width: 28px" title=""><ymaps class="ymaps-2-1-34-button__text"><ymaps class="ymaps-2-1-34-button__icon ymaps-2-1-34-button__icon_icon_expand" style="display: inline-block;"></ymaps><ymaps class="ymaps-2-1-34-button__title" style="display: none;"></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-controls__bottom" style="top: 488px;"><ymaps class="ymaps-2-1-34-controls__control" style="margin-right: 0px; margin-left: 0px; bottom: 30px; top: auto; right: 10px; left: auto;"><ymaps><ymaps style="display: block;"><ymaps style="display: inline-block; height: 100%; vertical-align: top;"><ymaps id="id_145198552989486116664"><ymaps><ymaps class="ymaps-2-1-34-scaleline" style="width: 72px; min-width: 59px"><ymaps class="ymaps-2-1-34-scaleline__left"><ymaps class="ymaps-2-1-34-scaleline__left-border"></ymaps><ymaps class="ymaps-2-1-34-scaleline__left-line"></ymaps></ymaps><ymaps class="ymaps-2-1-34-scaleline__center"><ymaps class="ymaps-2-1-34-scaleline__label">100&nbsp;км</ymaps></ymaps><ymaps class="ymaps-2-1-34-scaleline__right"><ymaps class="ymaps-2-1-34-scaleline__right-border"></ymaps><ymaps class="ymaps-2-1-34-scaleline__right-line"></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps style="display: inline-block; width: 10px; height: 0"></ymaps><ymaps style="display: inline-block;"><ymaps id="id_145198552989486116665" unselectable="on" class="ymaps-2-1-34-user-selection-none"><ymaps><ymaps class="ymaps-2-1-34-button ymaps-2-1-34-button_size_s ymaps-2-1-34-button_theme_normal ymaps-2-1-34-button_icon_only" role="button" type="button" style="max-width: 28px" title="Измерение расстояний на карте"><ymaps class="ymaps-2-1-34-button__text"><ymaps class="ymaps-2-1-34-button__icon ymaps-2-1-34-button__icon_icon_ruler"></ymaps><ymaps class="ymaps-2-1-34-button__title" style="display: none;"></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-controls__control" style="margin-right: 0px; margin-left: 0px; bottom: auto; top: 108px; right: auto; left: 10px;"><ymaps><ymaps class="ymaps-2-1-34-zoom" style="height: 150px"><ymaps class="ymaps-2-1-34-zoom__plus ymaps-2-1-34-zoom__button ymaps-2-1-34-button ymaps-2-1-34-button_size_s ymaps-2-1-34-button_theme_normal ymaps-2-1-34-user-selection-none" unselectable="on"><ymaps class="ymaps-2-1-34-zoom__icon ymaps-2-1-34-button__icon"></ymaps></ymaps><ymaps class="ymaps-2-1-34-zoom__minus ymaps-2-1-34-zoom__button ymaps-2-1-34-button ymaps-2-1-34-button_size_s ymaps-2-1-34-button_theme_normal ymaps-2-1-34-user-selection-none" unselectable="on"><ymaps class="ymaps-2-1-34-zoom__icon ymaps-2-1-34-button__icon"></ymaps></ymaps><ymaps class="ymaps-2-1-34-zoom__scale"><ymaps class="ymaps-2-1-34-zoom__runner ymaps-2-1-34-zoom__button ymaps-2-1-34-button ymaps-2-1-34-button_size_s ymaps-2-1-34-button_theme_normal ymaps-2-1-34-zoom__runner__transition ymaps-2-1-34-touch-action-none ymaps-2-1-34-user-selection-none" style="top: 90px;" unselectable="on"><ymaps class="ymaps-2-1-34-zoom__icon ymaps-2-1-34-button__icon ymaps-2-1-34-button__icon_icon_runner"></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-searchpanel-pane" style="width: 100%; position: absolute; transform: translate3d(0px, 0px, 0px) scale(1, 1); z-index: 7810;"><ymaps><ymaps class="ymaps-2-1-34-search ymaps-2-1-34-search_layout_panel"><ymaps class="ymaps-2-1-34-search__layout"><ymaps id="id_145198552989486116844"><ymaps><ymaps class="ymaps-2-1-34-search__input"><ymaps class="ymaps-2-1-34-search__input-wrap"><ymaps class="ymaps-2-1-34-input ymaps-2-1-34-input_size_s ymaps-2-1-34-input_theme_normal"><ymaps class="ymaps-2-1-34-input__box"><input class="ymaps-2-1-34-input__control" name="" placeholder="Адрес или объект"><ymaps class="ymaps-2-1-34-input__clear"></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-search__serp-button"></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-search__button"><ymaps class="ymaps-2-1-34-button ymaps-2-1-34-button_size_s ymaps-2-1-34-button_theme_action ymaps-2-1-34-user-selection-none" role="button" type="button" unselectable="on"><ymaps class="ymaps-2-1-34-button__text">Найти</ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-search__button ymaps-2-1-34-search__button_type_fold"><ymaps class="ymaps-2-1-34-button ymaps-2-1-34-button_size_s ymaps-2-1-34-button_icon_only ymaps-2-1-34-button_pseudo_yes ymaps-2-1-34-button_theme_pseudo" role="button" type="button"><ymaps class="ymaps-2-1-34-button__text"><ymaps class="ymaps-2-1-34-button__icon ymaps-2-1-34-button__icon_icon_fold"></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps id="id_145198552989486116845"><ymaps><ymaps class="ymaps-2-1-34-islets_serp-popup ymaps-2-1-34-islets__hidden"><ymaps class="ymaps-2-1-34-islets_serp-popup__tail"></ymaps><ymaps class="ymaps-2-1-34-islets_serp" style="max-height: 438px;"><ymaps id="id_145198552989486116846"><ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-places-pane" style="position: absolute; transform: translate3d(0px, 0px, 0px) scale(1, 1); transition-duration: 0ms; z-index: 2405;"><ymaps class="ymaps-2-1-34-placemark-overlay ymaps-2-1-34-user-selection-none" unselectable="on" style="z-index: 650; height: 0px; width: 0px; position: absolute; left: 127px; top: 386px;"><ymaps class="ymaps-2-1-34-svg-icon ymaps___api_maps_yandex_ru_2_1_34_1107548724203islands_icon___1BAD03_1451985550767" style="position: absolute; width: 34px; height: 41px; left: -11px; top: -38px;"><ymaps class="ymaps-2-1-34-svg-icon-content" style="font: 13px Arial, sans-serif; position: absolute; text-align: center;left: 5px;top: 6px;width: 16px;height: 16px;"><ymaps>2</ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-placemark-overlay ymaps-2-1-34-user-selection-none" unselectable="on" style="z-index: 650; height: 0px; width: 0px; position: absolute; left: 186px; top: 309px;"><ymaps class="ymaps-2-1-34-svg-icon ymaps___api_maps_yandex_ru_2_1_34_1107548724203islands_icon___1BAD03_1451985550767" style="position: absolute; width: 34px; height: 41px; left: -11px; top: -38px;"><ymaps class="ymaps-2-1-34-svg-icon-content" style="font: 13px Arial, sans-serif; position: absolute; text-align: center;left: 5px;top: 6px;width: 16px;height: 16px;"><ymaps>3</ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-placemark-overlay ymaps-2-1-34-user-selection-none" unselectable="on" style="z-index: 650; height: 0px; width: 0px; position: absolute; left: 163px; top: 366px;"><ymaps class="ymaps-2-1-34-svg-icon ymaps___api_maps_yandex_ru_2_1_34_1107548724203islands_icon___1BAD03_1451985550767" style="position: absolute; width: 34px; height: 41px; left: -11px; top: -38px;"><ymaps class="ymaps-2-1-34-svg-icon-content" style="font: 13px Arial, sans-serif; position: absolute; text-align: center;left: 5px;top: 6px;width: 16px;height: 16px;"><ymaps>4</ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-placemark-overlay ymaps-2-1-34-user-selection-none" unselectable="on" style="z-index: 650; height: 0px; width: 0px; position: absolute; left: 140px; top: 172px;"><ymaps class="ymaps-2-1-34-svg-icon ymaps___api_maps_yandex_ru_2_1_34_1107548724203islands_icon___1BAD03_1451985550767" style="position: absolute; width: 34px; height: 41px; left: -11px; top: -38px;"><ymaps class="ymaps-2-1-34-svg-icon-content" style="font: 13px Arial, sans-serif; position: absolute; text-align: center;left: 5px;top: 6px;width: 16px;height: 16px;"><ymaps>5</ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-placemark-overlay ymaps-2-1-34-user-selection-none" unselectable="on" style="z-index: 650; height: 0px; width: 0px; position: absolute; left: 265px; top: 194px;"><ymaps class="ymaps-2-1-34-svg-icon ymaps___api_maps_yandex_ru_2_1_34_1107548724203islands_icon___1BAD03_1451985550767" style="position: absolute; width: 34px; height: 41px; left: -11px; top: -38px;"><ymaps class="ymaps-2-1-34-svg-icon-content" style="font: 13px Arial, sans-serif; position: absolute; text-align: center;left: 5px;top: 6px;width: 16px;height: 16px;"><ymaps>6</ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-placemark-overlay ymaps-2-1-34-user-selection-none" unselectable="on" style="z-index: 650; height: 0px; width: 0px; position: absolute; left: 207px; top: 101px;"><ymaps class="ymaps-2-1-34-svg-icon ymaps___api_maps_yandex_ru_2_1_34_1107548724203islands_icon___1BAD03_1451985550767" style="position: absolute; width: 34px; height: 41px; left: -11px; top: -38px;"><ymaps class="ymaps-2-1-34-svg-icon-content" style="font: 13px Arial, sans-serif; position: absolute; text-align: center;left: 5px;top: 6px;width: 16px;height: 16px;"><ymaps>7</ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-34-placemark-overlay ymaps-2-1-34-user-selection-none" unselectable="on" style="z-index: 650; height: 0px; width: 0px; position: absolute; left: 214px; top: 382px;"><ymaps class="ymaps-2-1-34-svg-icon ymaps___api_maps_yandex_ru_2_1_34_1107548724203islands_icon___1BAD03_1451985550767" style="position: absolute; width: 34px; height: 41px; left: -11px; top: -38px;"><ymaps class="ymaps-2-1-34-svg-icon-content" style="font: 13px Arial, sans-serif; position: absolute; text-align: center;left: 5px;top: 6px;width: 16px;height: 16px;"><ymaps>1</ymaps></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps>
+            <!-- ngRepeat: marker in markers --><ymap-marker coordinates="marker.coordinates" index="$index+1" ng-repeat="marker in markers" class="ng-scope ng-isolate-scope"></ymap-marker><!-- end ngRepeat: marker in markers --><ymap-marker coordinates="marker.coordinates" index="$index+1" ng-repeat="marker in markers" class="ng-scope ng-isolate-scope"></ymap-marker><!-- end ngRepeat: marker in markers --><ymap-marker coordinates="marker.coordinates" index="$index+1" ng-repeat="marker in markers" class="ng-scope ng-isolate-scope"></ymap-marker><!-- end ngRepeat: marker in markers --><ymap-marker coordinates="marker.coordinates" index="$index+1" ng-repeat="marker in markers" class="ng-scope ng-isolate-scope"></ymap-marker><!-- end ngRepeat: marker in markers --><ymap-marker coordinates="marker.coordinates" index="$index+1" ng-repeat="marker in markers" class="ng-scope ng-isolate-scope"></ymap-marker><!-- end ngRepeat: marker in markers --><ymap-marker coordinates="marker.coordinates" index="$index+1" ng-repeat="marker in markers" class="ng-scope ng-isolate-scope"></ymap-marker><!-- end ngRepeat: marker in markers --><ymap-marker coordinates="marker.coordinates" index="$index+1" ng-repeat="marker in markers" class="ng-scope ng-isolate-scope"></ymap-marker><!-- end ngRepeat: marker in markers -->
+        </yandex-map>
+    </div>
+
+   
+
+    <script async="" src="//api-maps.yandex.ru/2.1/?load=package.standard,package.clusters&amp;mode=release&amp;lang=ru-RU&amp;ns=ymaps"></script>
+</body>
+</html>

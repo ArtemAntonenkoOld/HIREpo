@@ -1,0 +1,31 @@
+﻿@using ISharpConvertor.Entity;
+@using ISharpConvertor.UIModels;
+@model IEnumerable<BankModel>
+@{
+    ViewBag.Title = "Currency";
+}
+
+<section id="wrapper">
+    <div class="container">
+        <div class="rectangle">
+            <h2>Курс Валют</h2>
+
+        </div>
+
+        <div class="left_tri"></div>
+        <div class="right_tri"></div>
+
+        <div id="content">
+
+            <table class="simple-little-table" cellspacing='0'>
+           @foreach (BankModel bank in Model)
+            {
+              <tr>
+                  <td>@Html.ActionLink(@bank.cName, "Bank", "Home" ,new { id=@bank.cId}, null)</td>
+               
+              </tr>  
+            }
+            </table>
+        </div>
+    </div>
+</section>

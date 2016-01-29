@@ -1,0 +1,141 @@
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\obj\Debug\ISharpConvertor.BL.csprojResolveAssemblyReference.cache
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.BL.dll.config
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.BL.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.BL.pdb
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\EntityFramework.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.Entity.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.UIModels.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Helpers.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Mvc.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Razor.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.Entity.pdb
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.UIModels.pdb
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.pdb
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\EntityFramework.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Helpers.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Mvc.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Razor.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\obj\Debug\ISharpConvertor.BL.dll
+E:\Сдача\ISharpConvertor\ISharpConvertor.BL\obj\Debug\ISharpConvertor.BL.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.BL.dll.config
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.BL.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.BL.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\EntityFramework.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.Entity.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.UIModels.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Helpers.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Mvc.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Razor.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.Entity.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.UIModels.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.pdb
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\EntityFramework.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Helpers.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Mvc.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Razor.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\obj\Debug\ISharpConvertor.BL.csprojResolveAssemblyReference.cache
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\obj\Debug\ISharpConvertor.BL.dll
+C:\Users\SUPER\Documents\Visual Studio 2015\Projects\Сдача\ISharpConvertor\ISharpConvertor.BL\obj\Debug\ISharpConvertor.BL.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.BL\obj\Debug\ISharpConvertor.BL.csprojResolveAssemblyReference.cache
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.BL.dll.config
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.BL.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.BL.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\EntityFramework.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.Entity.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.UIModels.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Helpers.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Mvc.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Razor.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.Entity.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.UIModels.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\EntityFramework.xml
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Helpers.xml
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Mvc.xml
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Razor.xml
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.xml
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\obj\Debug\ISharpConvertor.BL.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\obj\Debug\ISharpConvertor.BL.pdb
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\Newtonsoft.Json.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\Newtonsoft.Json.xml
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ru\System.Web.Helpers.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ru\System.Web.Mvc.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ru\System.Web.Razor.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ru\System.Web.WebPages.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
+E:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.BL.dll.config
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.BL.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.BL.pdb
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\EntityFramework.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.Entity.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.UIModels.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\Newtonsoft.Json.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Helpers.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Mvc.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Razor.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.Entity.pdb
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.UIModels.pdb
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ISharpConvertor.pdb
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\EntityFramework.xml
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\Newtonsoft.Json.xml
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Helpers.xml
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Mvc.xml
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.Razor.xml
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.xml
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ru\System.Web.Helpers.resources.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ru\System.Web.Mvc.resources.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ru\System.Web.Razor.resources.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ru\System.Web.WebPages.resources.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\ru\System.Web.WebPages.Razor.resources.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\obj\Debug\ISharpConvertor.BL.csprojResolveAssemblyReference.cache
+D:\Final\ISharpConvertor\ISharpConvertor.BL\obj\Debug\ISharpConvertor.BL.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\obj\Debug\ISharpConvertor.BL.pdb
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\RestSharp.dll
+D:\Final\ISharpConvertor\ISharpConvertor.BL\bin\Debug\RestSharp.xml

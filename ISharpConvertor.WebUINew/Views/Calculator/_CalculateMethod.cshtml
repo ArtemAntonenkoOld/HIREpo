@@ -1,0 +1,8 @@
+﻿@model IEnumerable<ISharpConvertor.UIModels.CalculateModel>
+           <div class="box effect8">
+               <h3>
+                   @ViewBag.Head
+                   @Model.FirstOrDefault().Name;
+                   @Model.FirstOrDefault().Currency;
+               </h3>
+            </div>
