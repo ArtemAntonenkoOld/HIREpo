@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ISharpConvertor.DAL.Concrate;
-using RestSharp;
-using ISharpConvertor.BL.BindStrategy;
-using ISharpConvertor.BL.Mappers;
+
+
 using ISharpConvertor.UIModels;
 
 namespace ISharpConvertor.Consol

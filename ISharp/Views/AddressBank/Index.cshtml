@@ -32,6 +32,21 @@
                 <input type="submit" value="За містом і банком" class="enjoy-css_button first" />
 
             }
+
+
+
+            @using (Ajax.BeginForm("SearchOptimalBankByCityCurrency", new AjaxOptions { UpdateTargetId = "allbanks" }))
+            {
+
+                <input type="submit" value="За курсом і розташуванням" class="enjoy-css_button first" />
+
+            }
+            @using (Ajax.BeginForm("SearchOptimalByClosestPoint", new AjaxOptions { UpdateTargetId = "allbanks" }))
+            {
+
+                <input type="submit" value="Найближчі банки" class="enjoy-css_button first" />
+
+            }
             <div id="allbanks" style="text-align: center; margin-top: 5pc;">
             </div>
         </div>

@@ -1,11 +1,56 @@
-﻿   <form action="/AddressBank/_GetBankByCityMathod" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#results" id="form0" method="post">
+﻿<script>
+    var i = 1;
+    $("#country")
+  .focusout(function () {
+      if(i==1){
+      var a= "http://localhost:10112/api/onlycityapi?country="+$("#country option:selected").text();
+      $.getJSON(a, function (data) {
+          i = 0;
+          var items = [];
+          $.each(data, function (key, val) {
+              items.push("<option id='" + key + "'>" + val.City + "</option>");
+          });
+          
+          $("<select />", {
+              "class": "city enjoy-css_input",
+              "name": "city",
+              "id":"city",
+              html: items.join("")
+          }).appendTo("#form10")
+          var j = 1;
+          $("#city")
+        .focusout(function () {
+            if (j == 1) {
+                var b = "http://localhost:10112/api/BankByCityCountryApi?country=" + $("#country option:selected").text() + "&city=" + $("#city option:selected").text();
+                $.getJSON(b, function (data) {
+                    j = 0;
+                    var items = [];
+                    $.each(data, function (key, val) {
+                        items.push("<option id='" + key + "'>" + val.Name + "</option>");
+                    });
 
-        <select class="enjoy-css_input first" name="country">
+                    $("<select />", {
+                        "class": "bank enjoy-css_input",
+                        "name": "bank",
+                        html: items.join("")
+                    }).appendTo("#form10")
+
+                });
+            }
+        });
+      });
+      }
+  });
+   
+</script> 
+
+<form action="/AddressBank/_GetBankByCityMathod" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#results" id="form10" method="post">
+
+        <select class="enjoy-css_input first" name="country" id="country">
             <option>Україна</option>
         </select>
 
-        <select id="city" name="city" class="enjoy-css_input"></select>
-        @{Html.RenderPartial("_BankList");}
+       
 
 
 

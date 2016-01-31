@@ -1,0 +1,7 @@
+﻿@model IEnumerable<ISharpConvertor.UIModels.OnlyCityModel>
+<select id="city" name="city" class="enjoy-css_input">
+    @foreach (var item in Model)
+    {
+        <option>@item.City</option>
+    }
+</select>

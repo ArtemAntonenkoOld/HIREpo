@@ -12,13 +12,10 @@ D:\Final\ISharpConvertor\ISharp\bin\Microsoft.Data.OData.dll
 D:\Final\ISharpConvertor\ISharp\bin\Microsoft.Web.Infrastructure.dll
 D:\Final\ISharpConvertor\ISharp\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
 D:\Final\ISharpConvertor\ISharp\bin\Newtonsoft.Json.dll
-D:\Final\ISharpConvertor\ISharp\bin\System.Net.Http.Formatting.dll
 D:\Final\ISharpConvertor\ISharp\bin\System.Spatial.dll
 D:\Final\ISharpConvertor\ISharp\bin\System.Web.Helpers.dll
-D:\Final\ISharpConvertor\ISharp\bin\System.Web.Http.dll
 D:\Final\ISharpConvertor\ISharp\bin\System.Web.Http.OData.dll
 D:\Final\ISharpConvertor\ISharp\bin\System.Web.Http.Tracing.dll
-D:\Final\ISharpConvertor\ISharp\bin\System.Web.Http.WebHost.dll
 D:\Final\ISharpConvertor\ISharp\bin\System.Web.Mvc.dll
 D:\Final\ISharpConvertor\ISharp\bin\System.Web.Optimization.dll
 D:\Final\ISharpConvertor\ISharp\bin\System.Web.Providers.dll
@@ -34,10 +31,7 @@ D:\Final\ISharpConvertor\ISharp\bin\ISharpConvertor.UIModels.pdb
 D:\Final\ISharpConvertor\ISharp\bin\ISharpConvertor.pdb
 D:\Final\ISharpConvertor\ISharp\bin\EntityFramework.xml
 D:\Final\ISharpConvertor\ISharp\bin\Newtonsoft.Json.xml
-D:\Final\ISharpConvertor\ISharp\bin\System.Net.Http.Formatting.xml
 D:\Final\ISharpConvertor\ISharp\bin\System.Web.Helpers.xml
-D:\Final\ISharpConvertor\ISharp\bin\System.Web.Http.xml
-D:\Final\ISharpConvertor\ISharp\bin\System.Web.Http.WebHost.xml
 D:\Final\ISharpConvertor\ISharp\bin\System.Web.Mvc.xml
 D:\Final\ISharpConvertor\ISharp\bin\System.Web.Razor.xml
 D:\Final\ISharpConvertor\ISharp\bin\System.Web.WebPages.xml
@@ -49,10 +43,7 @@ D:\Final\ISharpConvertor\ISharp\bin\Microsoft.Data.Edm.xml
 D:\Final\ISharpConvertor\ISharp\bin\Microsoft.Data.OData.xml
 D:\Final\ISharpConvertor\ISharp\bin\System.Spatial.xml
 D:\Final\ISharpConvertor\ISharp\bin\RestSharp.xml
-D:\Final\ISharpConvertor\ISharp\bin\ru\System.Net.Http.Formatting.resources.dll
 D:\Final\ISharpConvertor\ISharp\bin\ru\System.Web.Helpers.resources.dll
-D:\Final\ISharpConvertor\ISharp\bin\ru\System.Web.Http.resources.dll
-D:\Final\ISharpConvertor\ISharp\bin\ru\System.Web.Http.WebHost.resources.dll
 D:\Final\ISharpConvertor\ISharp\bin\ru\System.Web.Mvc.resources.dll
 D:\Final\ISharpConvertor\ISharp\bin\ru\System.Web.Optimization.resources.dll
 D:\Final\ISharpConvertor\ISharp\bin\ru\System.Web.Providers.resources.dll

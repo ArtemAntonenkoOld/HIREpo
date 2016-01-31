@@ -1,4 +1,4 @@
-﻿/*using ISharpConvertor.BL.BaseMappers;
+﻿using ISharpConvertor.BL.BaseMappers;
 using ISharpConvertor.DAL.Concrate;
 using ISharpConvertor.UIModels;
 using System;
@@ -16,28 +16,27 @@ namespace ISharpConvertor.BL.BaseBindings
     {
         public async Task<List<ClosestPointModel>> BindData(string adress)
         {
-            string type = "Банк";
+           
             var client = new RestClient("https://geocode-maps.yandex.ru/1.x/?format=json&lang=uk_Ua&geocode="+adress);
 
             var request = new RestRequest("resource/", Method.GET);
             
             var data = await client.GetTaskAsync<GeocodeModel.RootObject>(request);
 
-            var a = data.response.GeoObjectCollection.featureMember[0].GeoObject.Point.pos[0];
-            {
-                           
-            }
+            var latitude = data.response.GeoObjectCollection.featureMember[0].GeoObject.Point.pos[0];
+            var longitude = data.response.GeoObjectCollection.featureMember[0].GeoObject.Point.pos[1];
+            
             RepositoryHolder holder = new RepositoryHolder();
 
-            GraphMapper mapper = new GraphMapper();
+            ClosestPointMapper mapper = new ClosestPointMapper();
             var adressRepository = holder.AdressRepository;
-            List<ClosestPointModel> resultData =
+           List<ClosestPointModel> resultData =
                 adressRepository.
-                    FetchBy(p => p.tbRate.cDate <= enddate && p.tbRate.cDate >= startdate).
-                    Select(p => mapper.EntityToUI(p)).ToList();
+                    Fetch().
+                    Select(p => mapper.EntityToUI(p, latitude, longitude)).OrderBy(z => z.FakeLatitude).ThenBy(z => z.FakeLongitude).Take(20).ToList();
 
+           
             return resultData;
         }
     }
 }
-*/

@@ -1,0 +1,7 @@
+﻿@using (Ajax.BeginForm("_GetOptimalBankByClosestPoint", new AjaxOptions { UpdateTargetId = "results" }))
+{
+    <input type="text" name="search" />
+    <input type="submit" value="Пошук" class="enjoy-css_button first" />
+
+}
+<div id="results"></div>

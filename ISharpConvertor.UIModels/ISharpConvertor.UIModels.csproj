@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddressModelForBanks.cs" />
+    <Compile Include="BankByCityCountryModel.cs" />
     <Compile Include="CalculateModelcs.cs" />
     <Compile Include="OnlyBankModel.cs" />
     <Compile Include="BankModel.cs" />

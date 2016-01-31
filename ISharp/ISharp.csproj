@@ -165,6 +165,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AddressBankController.cs" />
     <Compile Include="Controllers\AdressBankApiController.cs" />
+    <Compile Include="Controllers\BankByCityCountryApiController.cs" />
     <Compile Include="Controllers\CalculatorController.cs" />
     <Compile Include="Controllers\Default1Controller.cs" />
     <Compile Include="Controllers\GraphController.cs" />
@@ -1100,6 +1101,12 @@
     <Content Include="Views\AddressBank\_GetAllBanksByBankMathod.cshtml" />
     <Content Include="Views\Graph\_BankList.cshtml" />
     <Content Include="Views\Graph\_CurrencyList.cshtml" />
+    <Content Include="Views\AddressBank\_CityList.cshtml" />
+    <Content Include="Views\AddressBank\_Country.cshtml" />
+    <Content Include="Views\AddressBank\SearchOptimalBankByCityCurrency.cshtml" />
+    <Content Include="Views\AddressBank\_GetOptimalBankByCityCurrency.cshtml" />
+    <Content Include="Views\AddressBank\SearchOptimalByClosestPoint.cshtml" />
+    <Content Include="Views\AddressBank\_GetOptimalByClosestPoint.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

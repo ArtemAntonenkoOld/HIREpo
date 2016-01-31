@@ -23,5 +23,7 @@ namespace ISharpConvertor.BL.BaseBindings
                     Select(p => mapper.EntityToUI(p)).ToList();
             return resultnewData;
         }
+      
     }
+
 }

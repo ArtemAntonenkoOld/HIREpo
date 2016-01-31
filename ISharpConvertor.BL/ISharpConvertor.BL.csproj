@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseBindings\AddressForBankBinder.cs" />
+    <Compile Include="BaseBindings\BankByCityCountryBinder.cs" />
     <Compile Include="BaseBindings\CalculateBinder.cs" />
     <Compile Include="BaseBindings\ClosestPointBinder.cs" />
     <Compile Include="BaseBindings\GraphBinderByDate.cs" />
@@ -92,6 +93,7 @@
     <Compile Include="BaseBindings\OnlyRateBinder.cs" />
     <Compile Include="BaseBindings\RatesByValueBinder.cs" />
     <Compile Include="BaseMappers\AddressMaper.cs" />
+    <Compile Include="BaseMappers\BankByCityCountryMapper.cs" />
     <Compile Include="BaseMappers\CalculateMapper.cs" />
     <Compile Include="BaseMappers\ClosestPointMapper.cs" />
     <Compile Include="BaseMappers\GraphMapper.cs" />

@@ -47,6 +47,12 @@ namespace ISharpConvertor.WebUINew.Controllers
             var res = binder.BindData();
             return PartialView(res);
         }
+        public ActionResult _CityList(string country )
+        {
+            OnlyCityBinder binder = new OnlyCityBinder();
+            var res = binder.BindData(country);
+            return PartialView(res);
+        }
         public ActionResult SearchAllBanksByBank()
         {
             OnlyBankBinder binder = new OnlyBankBinder();
@@ -59,23 +65,34 @@ namespace ISharpConvertor.WebUINew.Controllers
             var res = binder.BindDataByBank(bank, country);
             return PartialView(res);
         }
-        public async Task<ActionResult> _GetAllBanksByCityMathod(string city, string country)
-        {
-            AddressForBankBinder binder = new AddressForBankBinder();
-            var res = await binder.BindData(city, country);
-            return PartialView(res);
-        }
+    
         public ActionResult _GetAllBanksMathod()
         {
             AddressForBankBinder binder = new AddressForBankBinder();
             var res = binder.BindDataAll();
             return PartialView(res);
         }
-       
+        public ActionResult SearchOptimalBankByCityCurrency()
+        {
+            return PartialView();
+        }
+        public ActionResult SearchOptimalByClosestPoint()
+        {
+            return PartialView();
+        }
+        //_GetOptimalByDistanceMathod
+        public async Task<ActionResult> _GetOptimalBankByClosestPoint(string search)
+        {
+            ClosestPointBinder binder = new ClosestPointBinder();
+            var res = await binder.BindData(search);
+            return PartialView(res);
+        }
+    
         public ActionResult Index()
         {
             return View();
         }
 
+        
     }
 }

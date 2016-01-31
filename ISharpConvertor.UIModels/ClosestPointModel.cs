@@ -8,11 +8,13 @@ namespace ISharpConvertor.UIModels
 {
     public class ClosestPointModel
     {
-        public double Latitude { get; set; }
-        public double Longitude { get; set; }
+        public string Latitude { get; set; }
+        public string Longitude { get; set; }
         public string Name { get; set; }
-        public string Adress { get; set; }
+        public string Address { get; set; }
         public string Rate {get;set;}
         public string Currency { get; set; }
+        public double FakeLongitude { get; set; }
+        public double FakeLatitude { get; set; }
     }
 }
